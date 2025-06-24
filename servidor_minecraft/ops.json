@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "23c55fec-ed59-36f8-be49-eddfbb631fbb",
+    "name": "MrIMirror",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
