@@ -107,12 +107,6 @@
     },
     "done": true
   },
-  "minecraft:nether/create_beacon": {
-    "criteria": {
-      "beacon": "2025-06-25 15:59:01 +0000"
-    },
-    "done": true
-  },
   "beansbackpacks:info/decorated_pots": {
     "criteria": {
       "has_the_recipe": "2025-06-25 15:37:27 +0000"
@@ -154,12 +148,6 @@
       "requirement": "2025-06-25 15:37:27 +0000"
     },
     "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:old_growth_birch_forest": "2025-06-25 15:37:29 +0000"
-    },
-    "done": false
   },
   "comforts:sleeping_bag_cyan": {
     "criteria": {
@@ -269,12 +257,6 @@
     },
     "done": true
   },
-  "quark:crawl_in_hollow_log": {
-    "criteria": {
-      "crawl_in_hollow_log": "2025-06-25 15:38:45 +0000"
-    },
-    "done": true
-  },
   "comforts:sleeping_bag_green": {
     "criteria": {
       "has_the_recipe": "2025-06-25 15:37:27 +0000"
@@ -314,6 +296,25 @@
   "comforts:hammock_green": {
     "criteria": {
       "has_the_recipe": "2025-06-25 15:37:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:dark_forest": "2025-06-25 16:21:53 +0000",
+      "minecraft:old_growth_birch_forest": "2025-06-25 15:37:29 +0000"
+    },
+    "done": false
+  },
+  "quark:crawl_in_hollow_log": {
+    "criteria": {
+      "crawl_in_hollow_log": "2025-06-25 15:38:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/create_beacon": {
+    "criteria": {
+      "beacon": "2025-06-25 15:59:01 +0000"
     },
     "done": true
   },
