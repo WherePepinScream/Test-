@@ -107,6 +107,12 @@
     },
     "done": true
   },
+  "minecraft:nether/create_beacon": {
+    "criteria": {
+      "beacon": "2025-06-25 15:59:01 +0000"
+    },
+    "done": true
+  },
   "beansbackpacks:info/decorated_pots": {
     "criteria": {
       "has_the_recipe": "2025-06-25 15:37:27 +0000"

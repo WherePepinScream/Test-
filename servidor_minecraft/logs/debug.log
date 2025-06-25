@@ -8410,3 +8410,10 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [25Jun2025 15:47:01.556] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [25Jun2025 15:52:01.569] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [25Jun2025 15:52:01.595] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[25Jun2025 15:57:01.532] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[25Jun2025 15:57:01.542] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[25Jun2025 15:59:01.388] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror has made the advancement [Bring Home the Beacon]
+[25Jun2025 15:59:15.558] [Server thread/DEBUG] [mixin/]: Mixing MixinPiglinAi from curios.mixins.json into net.minecraft.world.entity.monster.piglin.PiglinAi
+[25Jun2025 16:01:05.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MrIMirror: Set the world spawn point to 6, 66, 47 [0.0]]
+[25Jun2025 16:02:01.511] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[25Jun2025 16:02:01.532] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world

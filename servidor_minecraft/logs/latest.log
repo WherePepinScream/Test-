@@ -714,3 +714,5 @@
 [25Jun2025 15:38:31.875] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MrIMirror: Gamerule doWeatherCycle is now set to: false]
 [25Jun2025 15:38:39.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MrIMirror: Gamerule doMobSpawning is now set to: false]
 [25Jun2025 15:38:45.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror has made the advancement [Crawling in my Bark]
+[25Jun2025 15:59:01.388] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror has made the advancement [Bring Home the Beacon]
+[25Jun2025 16:01:05.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MrIMirror: Set the world spawn point to 6, 66, 47 [0.0]]
