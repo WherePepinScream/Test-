@@ -139,6 +139,12 @@
     },
     "done": true
   },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2025-06-26 00:38:09 +0000"
+    },
+    "done": true
+  },
   "comforts:sleeping_bag_white": {
     "criteria": {
       "has_the_recipe": "2025-06-26 00:14:43 +0000"
@@ -373,6 +379,12 @@
   "comforts:hammock_green": {
     "criteria": {
       "has_the_recipe": "2025-06-26 00:14:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2025-06-26 00:37:41 +0000"
     },
     "done": true
   },

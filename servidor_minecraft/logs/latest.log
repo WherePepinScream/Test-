@@ -374,3 +374,39 @@
 [26Jun2025 00:34:47.512] [Server thread/INFO] [Jade/]: Syncing config to MrIMirror (23c55fec-ed59-36f8-be49-eddfbb631fbb)
 [26Jun2025 00:34:47.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror has made the advancement [Rare Find]
 [26Jun2025 00:37:41.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Koko_de_Nos has made the advancement [Acquire Hardware]
+[26Jun2025 00:38:09.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Koko_de_Nos has made the advancement [Isn't It Iron Pick]
+[26Jun2025 00:39:36.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Koko_de_Nos> PARA QUE SIRVE EL CINC
+[26Jun2025 00:39:47.236] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrIMirror> para el create
+[26Jun2025 00:39:50.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <suranium> quien agrego el dwelerle
+[26Jun2025 00:39:54.878] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Koko_de_Nos> YO
+[26Jun2025 00:39:55.472] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <suranium> me cago del susto wbn
+[26Jun2025 00:39:57.241] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrIMirror> el joge
+[26Jun2025 00:39:59.238] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Koko_de_Nos> xd
+[26Jun2025 00:39:59.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrIMirror> XDD
+[26Jun2025 00:40:13.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <suranium> mi padre dijo "que te pasa oe"
+[26Jun2025 00:40:53.656] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror was slain by Bison
+[26Jun2025 00:42:50.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: suranium has made the advancement [Suit Up]
+[26Jun2025 00:43:22.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: suranium has made the advancement [Who You Gonna Call?]
+[26Jun2025 00:45:43.667] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MrIMirror lost connection: Disconnected
+[26Jun2025 00:45:43.667] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror left the game
+[26Jun2025 00:46:12.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] 3
+[26Jun2025 00:46:20.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] 2
+[26Jun2025 00:46:20.290] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Koko_de_Nos lost connection: Disconnected
+[26Jun2025 00:46:20.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Koko_de_Nos left the game
+[26Jun2025 00:46:25.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: suranium was doomed to fall by Ghost
+[26Jun2025 00:46:26.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] 1
+[26Jun2025 00:48:56.802] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: suranium lost connection: Disconnected
+[26Jun2025 00:48:56.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: suranium left the game
+[26Jun2025 00:48:59.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[26Jun2025 00:48:59.441] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[26Jun2025 00:48:59.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[26Jun2025 00:48:59.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[26Jun2025 00:49:00.163] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[26Jun2025 00:49:01.043] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/aether:the_aether
+[26Jun2025 00:49:01.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[26Jun2025 00:49:01.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[26Jun2025 00:49:01.177] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[26Jun2025 00:49:01.177] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (the_aether): All chunks are saved
+[26Jun2025 00:49:01.178] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[26Jun2025 00:49:01.178] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[26Jun2025 00:49:01.178] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved

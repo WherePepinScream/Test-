@@ -38,8 +38,11 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:beach": "2025-06-26 00:19:33 +0000",
+      "minecraft:river": "2025-06-26 00:36:28 +0000",
+      "minecraft:forest": "2025-06-26 00:36:36 +0000",
       "minecraft:lush_caves": "2025-06-26 00:23:33 +0000",
-      "minecraft:old_growth_birch_forest": "2025-06-26 00:12:47 +0000"
+      "minecraft:old_growth_birch_forest": "2025-06-26 00:12:47 +0000",
+      "minecraft:plains": "2025-06-26 00:39:30 +0000"
     },
     "done": false
   },
@@ -149,6 +152,12 @@
   "stellarity:dragons_den/cursed_tome/items/spellbooks/unlock_updraft": {
     "criteria": {
       "requirement": "2025-06-26 00:34:47 +0000"
+    },
+    "done": true
+  },
+  "stellarity:events/on_death": {
+    "criteria": {
+      "requirement": "2025-06-26 00:40:53 +0000"
     },
     "done": true
   },
