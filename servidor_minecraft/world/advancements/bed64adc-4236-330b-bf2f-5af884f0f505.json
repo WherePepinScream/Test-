@@ -1,52 +1,79 @@
 {
-  "tconstruct:tools/materials_and_you": {
+  "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "crafted_book": "2025-06-26 14:50:49 +0000"
-    },
-    "done": true
-  },
-  "tconstruct:internal/starting_book": {
-    "criteria": {
-      "tick": "2025-06-26 14:50:49 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:iceandfire/root": {
-    "criteria": {
-      "tick": "2025-06-26 14:50:49 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/lava_bucket": {
-    "criteria": {
-      "lava_bucket": "2025-06-26 14:53:42 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/root": {
-    "criteria": {
-      "killed_something": "2025-06-26 14:54:50 +0000"
+      "unlock_right_away": "2025-06-26 15:12:18 +0000"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:old_growth_pine_taiga": "2025-06-26 14:50:59 +0000",
-      "minecraft:grove": "2025-06-26 14:50:58 +0000",
-      "minecraft:lush_caves": "2025-06-26 14:51:30 +0000",
-      "minecraft:deep_dark": "2025-06-26 14:50:50 +0000"
+      "minecraft:frozen_river": "2025-06-26 15:16:21 +0000",
+      "minecraft:beach": "2025-06-26 15:19:13 +0000",
+      "minecraft:river": "2025-06-26 15:19:00 +0000",
+      "minecraft:snowy_plains": "2025-06-26 15:12:19 +0000",
+      "minecraft:swamp": "2025-06-26 15:19:05 +0000",
+      "minecraft:windswept_savanna": "2025-06-26 15:18:56 +0000",
+      "minecraft:old_growth_birch_forest": "2025-06-26 15:19:11 +0000"
     },
     "done": false
   },
-  "iceandfire:iceandfire/kill_if_dragon": {
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
     "criteria": {
-      "killed_ice_dragon": "2025-06-26 14:54:50 +0000"
+      "has_salmon": "2025-06-26 15:17:13 +0000"
     },
     "done": true
   },
-  "create:root": {
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
     "criteria": {
-      "0": "2025-06-26 14:50:49 +0000"
+      "has_salmon": "2025-06-26 15:17:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2025-06-26 15:17:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather": {
+    "criteria": {
+      "has_rabbit_hide": "2025-06-26 15:17:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2025-06-26 15:17:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_glow_ink_sac": "2025-06-26 15:17:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit": {
+    "criteria": {
+      "has_rabbit": "2025-06-26 15:18:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_smoking": {
+    "criteria": {
+      "has_rabbit": "2025-06-26 15:18:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_campfire_cooking": {
+    "criteria": {
+      "has_rabbit": "2025-06-26 15:18:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2025-06-26 15:17:38 +0000"
     },
     "done": true
   },
