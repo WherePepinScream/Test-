@@ -155,12 +155,6 @@
     },
     "done": true
   },
-  "stellarity:events/on_death": {
-    "criteria": {
-      "requirement": "2025-06-26 00:40:53 +0000"
-    },
-    "done": true
-  },
   "stellarity:story/drop_rare_illager_loot": {
     "criteria": {
       "drop4": "2025-06-26 00:34:47 +0000"
@@ -176,6 +170,12 @@
   "stellarity:dragons_den/cursed_tome/items/spellbooks/unlock_light": {
     "criteria": {
       "requirement": "2025-06-26 00:34:47 +0000"
+    },
+    "done": true
+  },
+  "stellarity:events/on_death": {
+    "criteria": {
+      "requirement": "2025-06-26 00:40:53 +0000"
     },
     "done": true
   },
