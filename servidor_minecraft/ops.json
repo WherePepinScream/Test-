@@ -4,5 +4,11 @@
     "name": "MrIMirror",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "bed64adc-4236-330b-bf2f-5af884f0f505",
+    "name": "Koko_de_Nos",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]
