@@ -1,320 +1,112 @@
 {
-  "comforts:sleeping_bag_light_blue": {
-    "criteria": {
-      "has_the_recipe": "2025-06-25 15:37:27 +0000"
-    },
-    "done": true
-  },
   "tconstruct:tools/materials_and_you": {
     "criteria": {
-      "crafted_book": "2025-06-25 15:37:27 +0000"
+      "crafted_book": "2025-06-26 00:12:47 +0000"
     },
     "done": true
   },
   "tconstruct:internal/starting_book": {
     "criteria": {
-      "tick": "2025-06-25 15:37:27 +0000"
+      "tick": "2025-06-26 00:12:47 +0000"
     },
     "done": true
   },
   "iceandfire:iceandfire/root": {
     "criteria": {
-      "tick": "2025-06-25 15:37:27 +0000"
-    },
-    "done": true
-  },
-  "comforts:sleeping_bag_black": {
-    "criteria": {
-      "has_the_recipe": "2025-06-25 15:37:27 +0000"
-    },
-    "done": true
-  },
-  "stellarity:cursed_tome/spellbooks/updraft": {
-    "criteria": {
-      "requirement": "2025-06-25 15:37:27 +0000"
-    },
-    "done": true
-  },
-  "comforts:hammock_purple": {
-    "criteria": {
-      "has_the_recipe": "2025-06-25 15:37:27 +0000"
-    },
-    "done": true
-  },
-  "comforts:hammock_lime": {
-    "criteria": {
-      "has_the_recipe": "2025-06-25 15:37:27 +0000"
-    },
-    "done": true
-  },
-  "comforts:sleeping_bag_pink": {
-    "criteria": {
-      "has_the_recipe": "2025-06-25 15:37:27 +0000"
-    },
-    "done": true
-  },
-  "stellarity:cursed_tome/spellbooks/light": {
-    "criteria": {
-      "requirement": "2025-06-25 15:37:27 +0000"
-    },
-    "done": true
-  },
-  "comforts:hammock_magenta": {
-    "criteria": {
-      "has_the_recipe": "2025-06-25 15:37:27 +0000"
-    },
-    "done": true
-  },
-  "comforts:sleeping_bag_red": {
-    "criteria": {
-      "has_the_recipe": "2025-06-25 15:37:27 +0000"
-    },
-    "done": true
-  },
-  "comforts:sleeping_bag_orange": {
-    "criteria": {
-      "has_the_recipe": "2025-06-25 15:37:27 +0000"
-    },
-    "done": true
-  },
-  "comforts:hammock_red": {
-    "criteria": {
-      "has_the_recipe": "2025-06-25 15:37:27 +0000"
+      "tick": "2025-06-26 00:12:47 +0000"
     },
     "done": true
   },
   "stellarity:dragons_den/cursed_tome/root": {
     "criteria": {
-      "requirement": "2025-06-25 15:37:27 +0000"
-    },
-    "done": true
-  },
-  "comforts:hammock_blue": {
-    "criteria": {
-      "has_the_recipe": "2025-06-25 15:37:27 +0000"
-    },
-    "done": true
-  },
-  "comforts:hammock_white": {
-    "criteria": {
-      "has_the_recipe": "2025-06-25 15:37:27 +0000"
-    },
-    "done": true
-  },
-  "stellarity:dragons_den/cursed_tome/items/spellbooks/unlock_conveyance": {
-    "criteria": {
-      "requirement": "2025-06-25 15:37:27 +0000"
-    },
-    "done": true
-  },
-  "beansbackpacks:info/decorated_pots": {
-    "criteria": {
-      "has_the_recipe": "2025-06-25 15:37:27 +0000"
-    },
-    "done": true
-  },
-  "comforts:hammock_light_gray": {
-    "criteria": {
-      "has_the_recipe": "2025-06-25 15:37:27 +0000"
-    },
-    "done": true
-  },
-  "comforts:sleeping_bag_white": {
-    "criteria": {
-      "has_the_recipe": "2025-06-25 15:37:27 +0000"
-    },
-    "done": true
-  },
-  "comforts:sleeping_bag_brown": {
-    "criteria": {
-      "has_the_recipe": "2025-06-25 15:37:27 +0000"
-    },
-    "done": true
-  },
-  "comforts:sleeping_bag_gray": {
-    "criteria": {
-      "has_the_recipe": "2025-06-25 15:37:27 +0000"
-    },
-    "done": true
-  },
-  "comforts:rope_and_nail": {
-    "criteria": {
-      "has_the_recipe": "2025-06-25 15:37:27 +0000"
-    },
-    "done": true
-  },
-  "stellarity:cursed_tome/spellbooks/natures_wrath": {
-    "criteria": {
-      "requirement": "2025-06-25 15:37:27 +0000"
-    },
-    "done": true
-  },
-  "comforts:sleeping_bag_cyan": {
-    "criteria": {
-      "has_the_recipe": "2025-06-25 15:37:27 +0000"
-    },
-    "done": true
-  },
-  "stellarity:dragons_den/cursed_tome/items/spellbooks/unlock_updraft": {
-    "criteria": {
-      "requirement": "2025-06-25 15:37:27 +0000"
-    },
-    "done": true
-  },
-  "comforts:hammock_pink": {
-    "criteria": {
-      "has_the_recipe": "2025-06-25 15:37:27 +0000"
-    },
-    "done": true
-  },
-  "comforts:hammock_brown": {
-    "criteria": {
-      "has_the_recipe": "2025-06-25 15:37:27 +0000"
-    },
-    "done": true
-  },
-  "comforts:sleeping_bag_light_gray": {
-    "criteria": {
-      "has_the_recipe": "2025-06-25 15:37:27 +0000"
-    },
-    "done": true
-  },
-  "comforts:hammock_black": {
-    "criteria": {
-      "has_the_recipe": "2025-06-25 15:37:27 +0000"
-    },
-    "done": true
-  },
-  "comforts:sleeping_bag_lime": {
-    "criteria": {
-      "has_the_recipe": "2025-06-25 15:37:27 +0000"
-    },
-    "done": true
-  },
-  "beansbackpacks:info/fluid_cauldrons": {
-    "criteria": {
-      "has_the_recipe": "2025-06-25 15:37:27 +0000"
-    },
-    "done": true
-  },
-  "comforts:hammock_yellow": {
-    "criteria": {
-      "has_the_recipe": "2025-06-25 15:37:27 +0000"
-    },
-    "done": true
-  },
-  "beansbackpacks:info/ender_backpacks": {
-    "criteria": {
-      "has_the_recipe": "2025-06-25 15:37:27 +0000"
-    },
-    "done": true
-  },
-  "stellarity:story/drop_rare_illager_loot": {
-    "criteria": {
-      "drop5": "2025-06-25 15:37:27 +0000"
-    },
-    "done": true
-  },
-  "comforts:sleeping_bag_blue": {
-    "criteria": {
-      "has_the_recipe": "2025-06-25 15:37:27 +0000"
-    },
-    "done": true
-  },
-  "stellarity:cursed_tome/spellbooks/conveyance": {
-    "criteria": {
-      "requirement": "2025-06-25 15:37:27 +0000"
+      "requirement": "2025-06-26 00:12:47 +0000"
     },
     "done": true
   },
   "create:root": {
     "criteria": {
-      "0": "2025-06-25 15:37:27 +0000"
-    },
-    "done": true
-  },
-  "comforts:hammock_gray": {
-    "criteria": {
-      "has_the_recipe": "2025-06-25 15:37:27 +0000"
-    },
-    "done": true
-  },
-  "comforts:hammock_cyan": {
-    "criteria": {
-      "has_the_recipe": "2025-06-25 15:37:27 +0000"
-    },
-    "done": true
-  },
-  "comforts:sleeping_bag_purple": {
-    "criteria": {
-      "has_the_recipe": "2025-06-25 15:37:27 +0000"
-    },
-    "done": true
-  },
-  "comforts:sleeping_bag_yellow": {
-    "criteria": {
-      "has_the_recipe": "2025-06-25 15:37:27 +0000"
-    },
-    "done": true
-  },
-  "comforts:sleeping_bag_green": {
-    "criteria": {
-      "has_the_recipe": "2025-06-25 15:37:27 +0000"
-    },
-    "done": true
-  },
-  "stellarity:dragons_den/cursed_tome/items/spellbooks/unlock_light": {
-    "criteria": {
-      "requirement": "2025-06-25 15:37:27 +0000"
+      "0": "2025-06-26 00:12:47 +0000"
     },
     "done": true
   },
   "stellarity:cursed_tome/root": {
     "criteria": {
-      "requirement": "2025-06-25 15:37:27 +0000"
-    },
-    "done": true
-  },
-  "comforts:hammock_light_blue": {
-    "criteria": {
-      "has_the_recipe": "2025-06-25 15:37:27 +0000"
-    },
-    "done": true
-  },
-  "comforts:hammock_orange": {
-    "criteria": {
-      "has_the_recipe": "2025-06-25 15:37:27 +0000"
-    },
-    "done": true
-  },
-  "comforts:sleeping_bag_magenta": {
-    "criteria": {
-      "has_the_recipe": "2025-06-25 15:37:27 +0000"
-    },
-    "done": true
-  },
-  "comforts:hammock_green": {
-    "criteria": {
-      "has_the_recipe": "2025-06-25 15:37:27 +0000"
+      "requirement": "2025-06-26 00:12:47 +0000"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:dark_forest": "2025-06-25 16:21:53 +0000",
-      "minecraft:old_growth_birch_forest": "2025-06-25 15:37:29 +0000"
+      "minecraft:beach": "2025-06-26 00:19:33 +0000",
+      "minecraft:lush_caves": "2025-06-26 00:23:33 +0000",
+      "minecraft:old_growth_birch_forest": "2025-06-26 00:12:47 +0000"
     },
     "done": false
   },
-  "quark:crawl_in_hollow_log": {
+  "minecraft:adventure/root": {
     "criteria": {
-      "crawl_in_hollow_log": "2025-06-25 15:38:45 +0000"
+      "killed_something": "2025-06-26 00:20:53 +0000"
     },
     "done": true
   },
-  "minecraft:nether/create_beacon": {
+  "minecraft:adventure/kill_all_mobs": {
     "criteria": {
-      "beacon": "2025-06-25 15:59:01 +0000"
+      "minecraft:skeleton": "2025-06-26 00:20:53 +0000",
+      "minecraft:spider": "2025-06-26 00:21:04 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:skeleton": "2025-06-26 00:20:53 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/seagull_steal": {
+    "criteria": {
+      "ex": "2025-06-26 00:16:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "bread": "2025-06-26 00:16:12 +0000"
+    },
+    "done": false
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2025-06-26 00:19:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2025-06-26 00:16:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2025-06-26 00:20:00 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/root": {
+    "criteria": {
+      "useitem": "2025-06-26 00:17:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2025-06-26 00:19:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2025-06-26 00:25:06 +0000"
     },
     "done": true
   },
