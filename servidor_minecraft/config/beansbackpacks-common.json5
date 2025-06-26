@@ -28,9 +28,9 @@
   "always_disables_back_slot": false, // Default: false
   "back_slot_pos": [59, 62],
 /* ================= Gamerules ================== */
-  "lockEnderOffline": false,         // Default: false
+  "lockBackpackOffline": false,      // Default: false
   "lockBackpackNotOwner": false,     // Default: false
   "keepBackSlot": false,             // Default: false
-  "lockBackpackOffline": false,      // Default: false
-  "unbindEnderOnDeath": false        // Default: false
+  "unbindEnderOnDeath": false,       // Default: false
+  "lockEnderOffline": false          // Default: false
 }
