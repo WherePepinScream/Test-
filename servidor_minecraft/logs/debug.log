@@ -8029,3 +8029,9 @@ Missing minecraft:entity_type:
 [26Jun2025 14:14:49.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task finished for minecraft:overworld. Processed: 7921 chunks (100.00%), Total time: 0:09:21
 [26Jun2025 14:18:22.923] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [26Jun2025 14:18:22.949] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[26Jun2025 14:22:55.958] [Server thread/DEBUG] [mixin/]: Mixing MixinPiglinAi from curios.mixins.json into net.minecraft.world.entity.monster.piglin.PiglinAi
+[26Jun2025 14:23:23.009] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[26Jun2025 14:23:23.039] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[26Jun2025 14:28:22.912] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[26Jun2025 14:28:22.931] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[26Jun2025 14:29:28.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Koko_de_Nos has made the advancement [Sweet Dreams]
