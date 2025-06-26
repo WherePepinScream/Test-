@@ -361,3 +361,16 @@
 [26Jun2025 00:25:50.822] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: suranium has made the advancement [Isn't It Iron Pick]
 [26Jun2025 00:26:41.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror has made the advancement [Isn't It Iron Pick]
 [26Jun2025 00:27:38.163] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Koko_de_Nos has made the advancement [Monster Hunter]
+[26Jun2025 00:28:20.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror has made the advancement [Suit Up]
+[26Jun2025 00:29:51.518] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: suranium has made the advancement [Monster Hunter]
+[26Jun2025 00:32:42.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Koko_de_Nos was slain by Cave Dweller
+[26Jun2025 00:33:56.359] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MrIMirror lost connection: Disconnected
+[26Jun2025 00:33:56.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror left the game
+[26Jun2025 00:34:47.320] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: beansbackpacks:smithing_netherite removed now.
+[26Jun2025 00:34:47.325] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: beansbackpacks:smithing_netherite removed now.
+[26Jun2025 00:34:47.329] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MrIMirror[/127.140.165.134:42885] logged in with entity id 6738 at (99.3496234717655, 6.0, 35.616945564916065)
+[26Jun2025 00:34:47.343] [Server thread/INFO] [Beans' Backpacks/]: Syncing beansbackpacks data to "MrIMirror"
+[26Jun2025 00:34:47.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror joined the game
+[26Jun2025 00:34:47.512] [Server thread/INFO] [Jade/]: Syncing config to MrIMirror (23c55fec-ed59-36f8-be49-eddfbb631fbb)
+[26Jun2025 00:34:47.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror has made the advancement [Rare Find]
+[26Jun2025 00:37:41.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Koko_de_Nos has made the advancement [Acquire Hardware]

@@ -83,11 +83,25 @@
     },
     "done": true
   },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2025-06-26 00:27:38 +0000"
+    },
+    "done": true
+  },
   "comforts:hammock_red": {
     "criteria": {
       "has_the_recipe": "2025-06-26 00:14:43 +0000"
     },
     "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:skeleton": "2025-06-26 00:27:38 +0000",
+      "minecraft:creeper": "2025-06-26 00:29:12 +0000",
+      "minecraft:zombie": "2025-06-26 00:27:47 +0000"
+    },
+    "done": false
   },
   "stellarity:dragons_den/cursed_tome/root": {
     "criteria": {
@@ -155,6 +169,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:skeleton": "2025-06-26 00:27:38 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:beach": "2025-06-26 00:18:05 +0000",
@@ -173,6 +193,12 @@
   "stellarity:dragons_den/cursed_tome/items/spellbooks/unlock_updraft": {
     "criteria": {
       "requirement": "2025-06-26 00:14:43 +0000"
+    },
+    "done": true
+  },
+  "stellarity:events/on_death": {
+    "criteria": {
+      "requirement": "2025-06-26 00:32:42 +0000"
     },
     "done": true
   },

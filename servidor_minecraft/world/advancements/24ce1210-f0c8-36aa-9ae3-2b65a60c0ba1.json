@@ -83,11 +83,23 @@
     },
     "done": true
   },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2025-06-26 00:29:51 +0000"
+    },
+    "done": true
+  },
   "comforts:hammock_red": {
     "criteria": {
       "has_the_recipe": "2025-06-26 00:15:32 +0000"
     },
     "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:zombie": "2025-06-26 00:29:51 +0000"
+    },
+    "done": false
   },
   "stellarity:dragons_den/cursed_tome/root": {
     "criteria": {
@@ -125,6 +137,12 @@
     },
     "done": true
   },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2025-06-26 00:25:50 +0000"
+    },
+    "done": true
+  },
   "comforts:sleeping_bag_white": {
     "criteria": {
       "has_the_recipe": "2025-06-26 00:15:32 +0000"
@@ -155,9 +173,16 @@
     },
     "done": true
   },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:zombie": "2025-06-26 00:29:51 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:beach": "2025-06-26 00:21:09 +0000",
+      "minecraft:lush_caves": "2025-06-26 00:27:36 +0000",
       "minecraft:old_growth_birch_forest": "2025-06-26 00:15:33 +0000"
     },
     "done": false
