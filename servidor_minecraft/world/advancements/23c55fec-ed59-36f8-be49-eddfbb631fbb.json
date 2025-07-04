@@ -8,20 +8,27 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:eroded_badlands": "2025-07-04 00:24:33 +0000",
+      "minecraft:windswept_hills": "2025-07-04 00:52:31 +0000",
       "minecraft:bamboo_jungle": "2025-07-02 00:05:15 +0000",
       "minecraft:wooded_badlands": "2025-07-02 00:04:36 +0000",
       "minecraft:badlands": "2025-07-02 00:09:39 +0000",
+      "minecraft:savanna_plateau": "2025-07-04 00:48:18 +0000",
       "minecraft:sparse_jungle": "2025-07-02 00:07:46 +0000",
       "minecraft:river": "2025-07-02 00:09:12 +0000",
       "minecraft:stony_shore": "2025-07-04 00:29:57 +0000",
+      "minecraft:forest": "2025-07-04 00:46:15 +0000",
       "minecraft:desert": "2025-07-02 00:05:24 +0000",
-      "minecraft:warm_ocean": "2025-07-02 00:08:44 +0000"
+      "minecraft:jungle": "2025-07-04 00:46:34 +0000",
+      "minecraft:warm_ocean": "2025-07-02 00:08:44 +0000",
+      "minecraft:savanna": "2025-07-04 00:52:10 +0000",
+      "minecraft:plains": "2025-07-04 00:46:12 +0000"
     },
     "done": false
   },
   "immersive_weathering:immersive_weathering/dirts": {
     "criteria": {
       "sandy_dirt": "2025-07-02 00:08:04 +0000",
+      "grass": "2025-07-04 00:47:12 +0000",
       "podzol": "2025-07-02 00:07:41 +0000",
       "silt": "2025-07-02 00:14:01 +0000",
       "earthen_clay": "2025-07-02 00:05:16 +0000"
@@ -493,6 +500,24 @@
   "minecraft:recipes/building_blocks/polished_granite_stairs_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2025-07-02 00:17:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_glazed_terracotta": {
+    "criteria": {
+      "has_yellow_terracotta": "2025-07-04 00:42:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_glazed_terracotta": {
+    "criteria": {
+      "has_white_terracotta": "2025-07-04 00:42:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_glazed_terracotta": {
+    "criteria": {
+      "has_orange_terracotta": "2025-07-04 00:39:06 +0000"
     },
     "done": true
   },
