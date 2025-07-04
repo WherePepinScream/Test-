@@ -7,11 +7,13 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:eroded_badlands": "2025-07-04 00:24:33 +0000",
       "minecraft:bamboo_jungle": "2025-07-02 00:05:15 +0000",
       "minecraft:wooded_badlands": "2025-07-02 00:04:36 +0000",
       "minecraft:badlands": "2025-07-02 00:09:39 +0000",
       "minecraft:sparse_jungle": "2025-07-02 00:07:46 +0000",
       "minecraft:river": "2025-07-02 00:09:12 +0000",
+      "minecraft:stony_shore": "2025-07-04 00:29:57 +0000",
       "minecraft:desert": "2025-07-02 00:05:24 +0000",
       "minecraft:warm_ocean": "2025-07-02 00:08:44 +0000"
     },
