@@ -1,73 +1,355 @@
-[04Jul2025 00:18:32.082] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[04Jul2025 00:18:32.093] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
-[04Jul2025 00:18:32.453] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[04Jul2025 00:18:32.552] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Test-/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[04Jul2025 00:18:33.046] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Test-/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[04Jul2025 00:18:33.051] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Test-/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[04Jul2025 00:18:33.053] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Test-/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[04Jul2025 00:18:33.055] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Test-/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[04Jul2025 00:18:33.376] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 3 dependencies adding them to mods collection
-[04Jul2025 00:18:36.363] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[04Jul2025 00:18:36.512] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[04Jul2025 00:18:36.911] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 65 options available, 0 override(s) found
-[04Jul2025 00:18:37.108] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.23.1+mc1.20.1: 95 options available, 0 override(s) found
-[04Jul2025 00:18:37.110] [main/INFO] [ModernFix/]: Applying Nashorn fix
-[04Jul2025 00:18:37.167] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
-[04Jul2025 00:18:38.526] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/layers/CapeLayer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.layers.CapeLayer)
-[04Jul2025 00:18:38.528] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.layers.CapeLayer was not found seriousplayeranimations.mixins.json:CapeRenderMixin
-[04Jul2025 00:18:39.337] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[04Jul2025 00:18:40.777] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (12.64 s after launch)
-[04Jul2025 00:18:41.073] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
-[04Jul2025 00:18:41.076] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
-[04Jul2025 00:18:44.263] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 3478 milliseconds
-[04Jul2025 00:18:48.780] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_47505_ in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
-[04Jul2025 00:18:49.558] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[04Jul2025 00:18:49.560] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[04Jul2025 00:18:49.648] [modloading-worker-0/INFO] [seriousplayeranimations/]: Loading up some Serious Animations.
-[04Jul2025 00:18:49.699] [modloading-worker-0/INFO] [chloride/Main]: Chloride is not intended to be on servers, loaded in inner mode
-[04Jul2025 00:18:51.392] [main/INFO] [Moonlight/]: Initialized block sets in 17ms
-[04Jul2025 00:18:52.035] [main/INFO] [Moonlight/]: Initialized color sets in 35ms
-[04Jul2025 00:18:52.294] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
-[04Jul2025 00:18:52.329] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
-[04Jul2025 00:18:52.588] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.14.11 Target: null
-[04Jul2025 00:18:52.588] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[04Jul2025 00:18:52.794] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[04Jul2025 00:18:53.167] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[04Jul2025 00:18:53.430] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
-[04Jul2025 00:18:53.724] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: combatroll:roll Expected: 1474 Got: 1475
-[04Jul2025 00:18:53.725] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: combatroll:roll_cooldown_ready Expected: 1475 Got: 1476
-[04Jul2025 00:18:53.869] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Test-/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23133!/assets/.mcassetsroot' uses unexpected schema
-[04Jul2025 00:18:53.870] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Test-/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23133!/data/.mcassetsroot' uses unexpected schema
-[04Jul2025 00:18:54.327] [main/INFO] [Moonlight/]: Generated runtime resources for 1 packs in a total of: 120 ms
-[04Jul2025 00:18:57.743] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[04Jul2025 00:18:57.910] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1355 advancements
-[04Jul2025 00:18:58.036] [main/INFO] [com.ordana.immersive_weathering.ImmersiveWeathering/]: Loaded 78 block growths configurations
-[04Jul2025 00:18:58.046] [main/INFO] [com.ordana.immersive_weathering.ImmersiveWeathering/]: Loaded 14 liquid generators configurations
-[04Jul2025 00:18:58.053] [main/WARN] [ModernFix/]: Initial datapack load took 4.152 s
-[04Jul2025 00:18:58.185] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[04Jul2025 00:18:58.188] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[04Jul2025 00:18:58.188] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[04Jul2025 00:18:58.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[04Jul2025 00:18:58.469] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[04Jul2025 00:18:58.539] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[04Jul2025 00:18:58.655] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[04Jul2025 00:18:58.656] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[04Jul2025 00:18:58.656] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[04Jul2025 00:18:58.660] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[04Jul2025 00:18:58.759] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[04Jul2025 00:18:59.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[04Jul2025 00:19:02.710] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Jul2025 00:19:02.711] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Jul2025 00:19:02.712] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Jul2025 00:19:02.713] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Jul2025 00:19:02.714] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Jul2025 00:19:02.715] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Jul2025 00:19:02.716] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Jul2025 00:19:02.962] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Jul2025 00:19:03.752] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4292 ms
-[04Jul2025 00:19:03.761] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (5.058s)! For help, type "help"
-[04Jul2025 00:19:03.826] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[04Jul2025 00:19:03.868] [Server thread/WARN] [ModernFix/]: Dedicated server took 35.728 seconds to load
-[04Jul2025 00:19:30.430] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MrIMirror[/127.140.165.134:35183] logged in with entity id 138 at (860.597399102332, 73.61813557864166, 1045.2674221329326)
-[04Jul2025 00:19:30.490] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player MrIMirror
-[04Jul2025 00:19:30.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror joined the game
+[04Jul2025 21:15:01.538] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[04Jul2025 21:15:01.543] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
+[04Jul2025 21:15:02.129] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[04Jul2025 21:15:02.207] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Test-/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[04Jul2025 21:15:02.620] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Test-/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[04Jul2025 21:15:02.622] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Test-/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[04Jul2025 21:15:02.624] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Test-/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[04Jul2025 21:15:02.626] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Test-/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[04Jul2025 21:15:03.005] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 3 dependencies adding them to mods collection
+[04Jul2025 21:15:06.075] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[04Jul2025 21:15:06.221] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[04Jul2025 21:15:06.593] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 68 options available, 0 override(s) found
+[04Jul2025 21:15:06.767] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.23.1+mc1.20.1: 95 options available, 0 override(s) found
+[04Jul2025 21:15:06.769] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[04Jul2025 21:15:06.795] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[04Jul2025 21:15:08.030] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/layers/CapeLayer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.layers.CapeLayer)
+[04Jul2025 21:15:08.033] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.layers.CapeLayer was not found seriousplayeranimations.mixins.json:CapeRenderMixin
+[04Jul2025 21:15:09.597] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[04Jul2025 21:15:10.805] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (12.77 s after launch)
+[04Jul2025 21:15:11.202] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[04Jul2025 21:15:11.204] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[04Jul2025 21:15:14.410] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 3593 milliseconds
+[04Jul2025 21:15:18.553] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_47505_ in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[04Jul2025 21:15:19.594] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/Test-/servidor_minecraft/config/tetra.toml is not correct. Correcting
+[04Jul2025 21:15:19.596] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Jul2025 21:15:19.597] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.bow was corrected from null to its default, true. 
+[04Jul2025 21:15:19.597] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.single_headed was corrected from null to its default, true. 
+[04Jul2025 21:15:19.597] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.shield was corrected from null to its default, true. 
+[04Jul2025 21:15:19.599] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.glint was corrected from null to its default, true. 
+[04Jul2025 21:15:19.599] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.development was corrected from null to its default, false. 
+[04Jul2025 21:15:19.599] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.toolbelt_curio_only was corrected from null to its default, false. 
+[04Jul2025 21:15:19.600] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.experimental_features was corrected from null to its default, []. 
+[04Jul2025 21:15:19.604] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.disabled_features was corrected from null to its default, []. 
+[04Jul2025 21:15:19.604] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.magic_cap_multiplier was corrected from null to its default, 1.0. 
+[04Jul2025 21:15:19.605] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key module_progression was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Jul2025 21:15:19.605] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key module_progression.enabled was corrected from null to its default, true. 
+[04Jul2025 21:15:19.607] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key module_progression.settle_base was corrected from null to its default, 270. 
+[04Jul2025 21:15:19.608] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key module_progression.settle_level_multiplier was corrected from null to its default, 3.0. 
+[04Jul2025 21:15:19.610] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key module_progression.settle_durability_multiplier was corrected from null to its default, 0.5. 
+[04Jul2025 21:15:19.610] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key module_progression.hone_sword_base was corrected from null to its default, 110. 
+[04Jul2025 21:15:19.610] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key module_progression.hone_sword_integrity_multiplier was corrected from null to its default, 65. 
+[04Jul2025 21:15:19.610] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key module_progression.hone_double_base was corrected from null to its default, 140. 
+[04Jul2025 21:15:19.610] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key module_progression.hone_double_integrity_multiplier was corrected from null to its default, 75. 
+[04Jul2025 21:15:19.610] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key module_progression.hone_bow_base was corrected from null to its default, 48. 
+[04Jul2025 21:15:19.611] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key module_progression.hone_bow_integrity_multiplier was corrected from null to its default, 32. 
+[04Jul2025 21:15:19.613] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key module_progression.hone_shield_base was corrected from null to its default, 48. 
+[04Jul2025 21:15:19.614] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key module_progression.hone_shield_integrity_multiplier was corrected from null to its default, 32. 
+[04Jul2025 21:15:19.615] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key module_progression.hone_crossbow_base was corrected from null to its default, 48. 
+[04Jul2025 21:15:19.617] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key module_progression.hone_crossbow_integrity_multiplier was corrected from null to its default, 32. 
+[04Jul2025 21:15:19.617] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key module_progression.hone_single_headed_base was corrected from null to its default, 120. 
+[04Jul2025 21:15:19.618] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key module_progression.hone_single_headed_integrity_multiplier was corrected from null to its default, 60. 
+[04Jul2025 21:15:19.626] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key experimental was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Jul2025 21:15:19.626] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key experimental.extractor was corrected from null to its default, true. 
+[04Jul2025 21:15:19.627] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key experimental.crossbow was corrected from null to its default, true. 
+[04Jul2025 21:15:19.690] [modloading-worker-0/INFO] [seriousplayeranimations/]: Loading up some Serious Animations.
+[04Jul2025 21:15:19.697] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[04Jul2025 21:15:19.700] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[04Jul2025 21:15:19.805] [modloading-worker-0/INFO] [chloride/Main]: Chloride is not intended to be on servers, loaded in inner mode
+[04Jul2025 21:15:21.577] [main/INFO] [Moonlight/]: Initialized block sets in 18ms
+[04Jul2025 21:15:22.529] [main/INFO] [Moonlight/]: Initialized color sets in 57ms
+[04Jul2025 21:15:22.721] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
+[04Jul2025 21:15:23.017] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.14.11 Target: null
+[04Jul2025 21:15:23.017] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[04Jul2025 21:15:23.196] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[04Jul2025 21:15:23.596] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[04Jul2025 21:15:23.762] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[04Jul2025 21:15:23.960] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:basic_workbench Expected: 1003 Got: 1189
+[04Jul2025 21:15:23.961] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:holosphere Expected: 1004 Got: 1190
+[04Jul2025 21:15:23.962] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:rack Expected: 1005 Got: 1191
+[04Jul2025 21:15:23.962] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:scroll_rolled Expected: 1006 Got: 1192
+[04Jul2025 21:15:23.962] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:scroll_wall Expected: 1007 Got: 1193
+[04Jul2025 21:15:23.963] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:scroll_open Expected: 1008 Got: 1194
+[04Jul2025 21:15:23.963] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:forged_wall Expected: 1009 Got: 1195
+[04Jul2025 21:15:23.963] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:forged_pillar Expected: 1010 Got: 1196
+[04Jul2025 21:15:23.964] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:forged_platform Expected: 1011 Got: 1197
+[04Jul2025 21:15:23.964] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:forged_platform_slab Expected: 1012 Got: 1198
+[04Jul2025 21:15:23.964] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:forged_vent Expected: 1013 Got: 1199
+[04Jul2025 21:15:23.965] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:hammer_head Expected: 1014 Got: 1200
+[04Jul2025 21:15:23.965] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:hammer_base Expected: 1015 Got: 1201
+[04Jul2025 21:15:23.966] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:forged_workbench Expected: 1016 Got: 1202
+[04Jul2025 21:15:23.966] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:forged_container Expected: 1017 Got: 1203
+[04Jul2025 21:15:23.967] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:forged_crate Expected: 1018 Got: 1204
+[04Jul2025 21:15:23.967] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:transfer_unit Expected: 1019 Got: 1205
+[04Jul2025 21:15:23.967] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:chthonic_extractor Expected: 1020 Got: 1206
+[04Jul2025 21:15:23.967] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:fractured_bedrock Expected: 1021 Got: 1207
+[04Jul2025 21:15:23.967] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:depleted_bedrock Expected: 1022 Got: 1208
+[04Jul2025 21:15:23.968] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:core_extractor Expected: 1023 Got: 1209
+[04Jul2025 21:15:23.968] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:extractor_piston Expected: 1024 Got: 1210
+[04Jul2025 21:15:23.968] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:extractor_pipe Expected: 1025 Got: 1211
+[04Jul2025 21:15:23.969] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:seeping_bedrock Expected: 1026 Got: 1212
+[04Jul2025 21:15:23.969] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:stonecutter_ruined_0_0 Expected: 1027 Got: 1213
+[04Jul2025 21:15:23.969] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:stonecutter_0_0 Expected: 1028 Got: 1214
+[04Jul2025 21:15:23.970] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:stonecutter_ruined_0_1 Expected: 1029 Got: 1215
+[04Jul2025 21:15:23.970] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:stonecutter_0_1 Expected: 1030 Got: 1216
+[04Jul2025 21:15:23.970] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:stonecutter_ruined_1_0 Expected: 1031 Got: 1217
+[04Jul2025 21:15:23.970] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:stonecutter_1_0 Expected: 1032 Got: 1218
+[04Jul2025 21:15:23.970] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:stonecutter_ruined_1_1 Expected: 1033 Got: 1219
+[04Jul2025 21:15:23.971] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:stonecutter_1_1 Expected: 1034 Got: 1220
+[04Jul2025 21:15:23.971] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:stonecutter_ruined_2_0 Expected: 1035 Got: 1221
+[04Jul2025 21:15:23.971] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:stonecutter_2_0 Expected: 1036 Got: 1222
+[04Jul2025 21:15:23.972] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:stonecutter_ruined_2_1 Expected: 1037 Got: 1223
+[04Jul2025 21:15:23.972] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:stonecutter_2_1 Expected: 1038 Got: 1224
+[04Jul2025 21:15:23.972] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:earthpiercer_ruined_0_0 Expected: 1039 Got: 1225
+[04Jul2025 21:15:23.972] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:earthpiercer_0_0 Expected: 1040 Got: 1226
+[04Jul2025 21:15:23.972] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:earthpiercer_ruined_0_1 Expected: 1041 Got: 1227
+[04Jul2025 21:15:23.972] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:earthpiercer_0_1 Expected: 1042 Got: 1228
+[04Jul2025 21:15:23.973] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:earthpiercer_ruined_1_0 Expected: 1043 Got: 1229
+[04Jul2025 21:15:23.973] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:earthpiercer_1_0 Expected: 1044 Got: 1230
+[04Jul2025 21:15:23.973] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:earthpiercer_ruined_1_1 Expected: 1045 Got: 1231
+[04Jul2025 21:15:23.973] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:earthpiercer_1_1 Expected: 1046 Got: 1232
+[04Jul2025 21:15:23.973] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:extractor_ruined_0_0 Expected: 1047 Got: 1233
+[04Jul2025 21:15:23.973] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:extractor_0_0 Expected: 1048 Got: 1234
+[04Jul2025 21:15:23.973] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:extractor_ruined_0_1 Expected: 1049 Got: 1235
+[04Jul2025 21:15:23.973] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:extractor_0_1 Expected: 1050 Got: 1236
+[04Jul2025 21:15:23.973] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:extractor_ruined_0_2 Expected: 1051 Got: 1237
+[04Jul2025 21:15:23.973] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:extractor_0_2 Expected: 1052 Got: 1238
+[04Jul2025 21:15:23.973] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:extractor_ruined_1_0 Expected: 1053 Got: 1239
+[04Jul2025 21:15:23.973] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:extractor_1_0 Expected: 1054 Got: 1240
+[04Jul2025 21:15:23.974] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:extractor_ruined_1_1 Expected: 1055 Got: 1241
+[04Jul2025 21:15:23.974] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:extractor_1_1 Expected: 1056 Got: 1242
+[04Jul2025 21:15:23.974] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:extractor_ruined_1_2 Expected: 1057 Got: 1243
+[04Jul2025 21:15:23.975] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:extractor_1_2 Expected: 1058 Got: 1244
+[04Jul2025 21:15:23.975] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:extractor_ruined_2_0 Expected: 1059 Got: 1245
+[04Jul2025 21:15:23.975] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:extractor_2_0 Expected: 1060 Got: 1246
+[04Jul2025 21:15:23.975] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:extractor_ruined_2_1 Expected: 1061 Got: 1247
+[04Jul2025 21:15:23.978] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:extractor_2_1 Expected: 1062 Got: 1248
+[04Jul2025 21:15:23.978] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:extractor_ruined_2_2 Expected: 1063 Got: 1249
+[04Jul2025 21:15:23.978] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:extractor_2_2 Expected: 1064 Got: 1250
+[04Jul2025 21:15:23.978] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tetra:block_geode Expected: 1065 Got: 1251
+[04Jul2025 21:15:23.978] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: friendsandfoes:buttercup Expected: 1242 Got: 1252
+[04Jul2025 21:15:23.978] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: friendsandfoes:potted_buttercup Expected: 1243 Got: 1253
+[04Jul2025 21:15:23.979] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: friendsandfoes:crab_egg Expected: 1244 Got: 1254
+[04Jul2025 21:15:23.979] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: friendsandfoes:acacia_beehive Expected: 1245 Got: 1255
+[04Jul2025 21:15:23.979] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: friendsandfoes:bamboo_beehive Expected: 1246 Got: 1256
+[04Jul2025 21:15:23.979] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: friendsandfoes:birch_beehive Expected: 1247 Got: 1257
+[04Jul2025 21:15:23.979] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: friendsandfoes:cherry_beehive Expected: 1248 Got: 1258
+[04Jul2025 21:15:23.979] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: friendsandfoes:crimson_beehive Expected: 1249 Got: 1259
+[04Jul2025 21:15:23.979] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: friendsandfoes:dark_oak_beehive Expected: 1250 Got: 1260
+[04Jul2025 21:15:23.980] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: friendsandfoes:jungle_beehive Expected: 1251 Got: 1261
+[04Jul2025 21:15:23.981] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: friendsandfoes:mangrove_beehive Expected: 1252 Got: 1262
+[04Jul2025 21:15:23.982] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: friendsandfoes:spruce_beehive Expected: 1253 Got: 1263
+[04Jul2025 21:15:23.984] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: friendsandfoes:warped_beehive Expected: 1254 Got: 1264
+[04Jul2025 21:15:23.984] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: friendsandfoes:copper_button Expected: 1255 Got: 1265
+[04Jul2025 21:15:23.984] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: friendsandfoes:exposed_copper_button Expected: 1256 Got: 1266
+[04Jul2025 21:15:23.984] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: friendsandfoes:weathered_copper_button Expected: 1257 Got: 1267
+[04Jul2025 21:15:23.984] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: friendsandfoes:oxidized_copper_button Expected: 1258 Got: 1268
+[04Jul2025 21:15:23.985] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: friendsandfoes:waxed_copper_button Expected: 1259 Got: 1269
+[04Jul2025 21:15:23.985] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: friendsandfoes:waxed_exposed_copper_button Expected: 1260 Got: 1270
+[04Jul2025 21:15:23.985] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: friendsandfoes:waxed_weathered_copper_button Expected: 1261 Got: 1271
+[04Jul2025 21:15:23.985] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: friendsandfoes:waxed_oxidized_copper_button Expected: 1262 Got: 1272
+[04Jul2025 21:15:23.985] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: friendsandfoes:exposed_lightning_rod Expected: 1263 Got: 1273
+[04Jul2025 21:15:23.986] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: friendsandfoes:weathered_lightning_rod Expected: 1264 Got: 1274
+[04Jul2025 21:15:23.987] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: friendsandfoes:oxidized_lightning_rod Expected: 1265 Got: 1275
+[04Jul2025 21:15:23.987] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: friendsandfoes:waxed_lightning_rod Expected: 1266 Got: 1276
+[04Jul2025 21:15:23.987] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: friendsandfoes:waxed_exposed_lightning_rod Expected: 1267 Got: 1277
+[04Jul2025 21:15:23.988] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: friendsandfoes:waxed_weathered_lightning_rod Expected: 1268 Got: 1278
+[04Jul2025 21:15:23.988] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: friendsandfoes:waxed_oxidized_lightning_rod Expected: 1269 Got: 1279
+[04Jul2025 21:15:23.989] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:basic_workbench Expected: 1255 Got: 1447
+[04Jul2025 21:15:23.991] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:rack Expected: 1256 Got: 1469
+[04Jul2025 21:15:23.991] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:forged_wall Expected: 1257 Got: 1470
+[04Jul2025 21:15:23.992] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:forged_pillar Expected: 1258 Got: 1471
+[04Jul2025 21:15:23.992] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:forged_platform Expected: 1259 Got: 1472
+[04Jul2025 21:15:23.993] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:forged_platform_slab Expected: 1260 Got: 1473
+[04Jul2025 21:15:23.995] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:forged_vent Expected: 1261 Got: 1474
+[04Jul2025 21:15:23.995] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:hammer_base Expected: 1262 Got: 1475
+[04Jul2025 21:15:23.995] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:forged_workbench Expected: 1263 Got: 1476
+[04Jul2025 21:15:23.997] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:forged_container Expected: 1264 Got: 1477
+[04Jul2025 21:15:23.998] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:forged_crate Expected: 1265 Got: 1478
+[04Jul2025 21:15:23.998] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:transfer_unit Expected: 1266 Got: 1479
+[04Jul2025 21:15:23.998] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:chthonic_extractor_used Expected: 1267 Got: 1480
+[04Jul2025 21:15:23.998] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:chthonic_extractor Expected: 1268 Got: 1481
+[04Jul2025 21:15:23.998] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:core_extractor Expected: 1269 Got: 1482
+[04Jul2025 21:15:24.002] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:extractor_pipe Expected: 1270 Got: 1483
+[04Jul2025 21:15:24.003] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:seeping_bedrock Expected: 1271 Got: 1484
+[04Jul2025 21:15:24.003] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:stonecutter_0_0 Expected: 1272 Got: 1485
+[04Jul2025 21:15:24.003] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:stonecutter_ruined_0_0 Expected: 1273 Got: 1486
+[04Jul2025 21:15:24.003] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:stonecutter_0_1 Expected: 1274 Got: 1487
+[04Jul2025 21:15:24.003] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:stonecutter_ruined_0_1 Expected: 1275 Got: 1488
+[04Jul2025 21:15:24.004] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:stonecutter_1_0 Expected: 1276 Got: 1489
+[04Jul2025 21:15:24.004] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:stonecutter_ruined_1_0 Expected: 1277 Got: 1490
+[04Jul2025 21:15:24.004] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:stonecutter_1_1 Expected: 1278 Got: 1491
+[04Jul2025 21:15:24.004] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:stonecutter_ruined_1_1 Expected: 1279 Got: 1492
+[04Jul2025 21:15:24.004] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:stonecutter_2_0 Expected: 1280 Got: 1493
+[04Jul2025 21:15:24.005] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:stonecutter_ruined_2_0 Expected: 1281 Got: 1494
+[04Jul2025 21:15:24.005] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:stonecutter_2_1 Expected: 1282 Got: 1495
+[04Jul2025 21:15:24.005] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:stonecutter_ruined_2_1 Expected: 1283 Got: 1496
+[04Jul2025 21:15:24.005] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:earthpiercer_0_0 Expected: 1284 Got: 1497
+[04Jul2025 21:15:24.005] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:earthpiercer_ruined_0_0 Expected: 1285 Got: 1498
+[04Jul2025 21:15:24.005] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:earthpiercer_0_1 Expected: 1286 Got: 1499
+[04Jul2025 21:15:24.006] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:earthpiercer_ruined_0_1 Expected: 1287 Got: 1500
+[04Jul2025 21:15:24.006] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:earthpiercer_1_0 Expected: 1288 Got: 1501
+[04Jul2025 21:15:24.006] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:earthpiercer_ruined_1_0 Expected: 1289 Got: 1502
+[04Jul2025 21:15:24.006] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:earthpiercer_1_1 Expected: 1290 Got: 1503
+[04Jul2025 21:15:24.006] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:earthpiercer_ruined_1_1 Expected: 1291 Got: 1504
+[04Jul2025 21:15:24.007] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:extractor_0_0 Expected: 1292 Got: 1505
+[04Jul2025 21:15:24.007] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:extractor_ruined_0_0 Expected: 1293 Got: 1506
+[04Jul2025 21:15:24.007] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:extractor_0_1 Expected: 1294 Got: 1507
+[04Jul2025 21:15:24.007] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:extractor_ruined_0_1 Expected: 1295 Got: 1508
+[04Jul2025 21:15:24.007] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:extractor_0_2 Expected: 1296 Got: 1509
+[04Jul2025 21:15:24.007] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:extractor_ruined_0_2 Expected: 1297 Got: 1510
+[04Jul2025 21:15:24.007] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:extractor_1_0 Expected: 1298 Got: 1511
+[04Jul2025 21:15:24.008] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:extractor_ruined_1_0 Expected: 1299 Got: 1512
+[04Jul2025 21:15:24.008] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:extractor_1_1 Expected: 1300 Got: 1513
+[04Jul2025 21:15:24.008] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:extractor_ruined_1_1 Expected: 1301 Got: 1514
+[04Jul2025 21:15:24.010] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:extractor_1_2 Expected: 1302 Got: 1515
+[04Jul2025 21:15:24.010] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:extractor_ruined_1_2 Expected: 1303 Got: 1516
+[04Jul2025 21:15:24.010] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:extractor_2_0 Expected: 1304 Got: 1517
+[04Jul2025 21:15:24.011] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:extractor_ruined_2_0 Expected: 1305 Got: 1518
+[04Jul2025 21:15:24.011] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:extractor_2_1 Expected: 1306 Got: 1519
+[04Jul2025 21:15:24.011] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:extractor_ruined_2_1 Expected: 1307 Got: 1520
+[04Jul2025 21:15:24.011] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:extractor_2_2 Expected: 1308 Got: 1521
+[04Jul2025 21:15:24.011] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:extractor_ruined_2_2 Expected: 1309 Got: 1522
+[04Jul2025 21:15:24.011] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:modular_sword Expected: 1310 Got: 1523
+[04Jul2025 21:15:24.012] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:modular_double Expected: 1311 Got: 1524
+[04Jul2025 21:15:24.012] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:modular_bow Expected: 1312 Got: 1525
+[04Jul2025 21:15:24.012] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:shootable_dummy Expected: 1313 Got: 1526
+[04Jul2025 21:15:24.012] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:modular_crossbow Expected: 1314 Got: 1527
+[04Jul2025 21:15:24.013] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:modular_single Expected: 1315 Got: 1528
+[04Jul2025 21:15:24.013] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:modular_shield Expected: 1316 Got: 1529
+[04Jul2025 21:15:24.014] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:modular_toolbelt Expected: 1317 Got: 1530
+[04Jul2025 21:15:24.014] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:holo Expected: 1318 Got: 1531
+[04Jul2025 21:15:24.014] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:dynamic_handheld Expected: 1319 Got: 1532
+[04Jul2025 21:15:24.014] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:geode Expected: 1320 Got: 1533
+[04Jul2025 21:15:24.014] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:pristine_lapis Expected: 1321 Got: 1534
+[04Jul2025 21:15:24.015] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:pristine_emerald Expected: 1322 Got: 1535
+[04Jul2025 21:15:24.015] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:pristine_diamond Expected: 1323 Got: 1536
+[04Jul2025 21:15:24.016] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:pristine_amethyst Expected: 1324 Got: 1537
+[04Jul2025 21:15:24.017] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:pristine_quartz Expected: 1325 Got: 1538
+[04Jul2025 21:15:24.017] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:dragon_sinew Expected: 1326 Got: 1539
+[04Jul2025 21:15:24.017] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:forged_bolt Expected: 1327 Got: 1540
+[04Jul2025 21:15:24.017] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:forged_beam Expected: 1328 Got: 1541
+[04Jul2025 21:15:24.017] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:forged_mesh Expected: 1329 Got: 1542
+[04Jul2025 21:15:24.017] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:quick_latch Expected: 1330 Got: 1543
+[04Jul2025 21:15:24.017] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:metal_scrap Expected: 1331 Got: 1544
+[04Jul2025 21:15:24.018] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:vent_plate Expected: 1332 Got: 1545
+[04Jul2025 21:15:24.018] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:planar_stabilizer Expected: 1333 Got: 1546
+[04Jul2025 21:15:24.018] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:thermal_cell Expected: 1334 Got: 1547
+[04Jul2025 21:15:24.019] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:combustion_chamber Expected: 1335 Got: 1548
+[04Jul2025 21:15:24.019] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:lubricant_dispenser Expected: 1336 Got: 1549
+[04Jul2025 21:15:24.019] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:earthpiercer Expected: 1337 Got: 1550
+[04Jul2025 21:15:24.019] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:stonecutter Expected: 1338 Got: 1551
+[04Jul2025 21:15:24.020] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tetra:scroll_rolled Expected: 1339 Got: 1552
+[04Jul2025 21:15:24.020] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: friendsandfoes:copper_golem_spawn_egg Expected: 1533 Got: 1553
+[04Jul2025 21:15:24.020] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: friendsandfoes:crab_spawn_egg Expected: 1534 Got: 1554
+[04Jul2025 21:15:24.020] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: friendsandfoes:glare_spawn_egg Expected: 1535 Got: 1555
+[04Jul2025 21:15:24.020] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: friendsandfoes:iceologer_spawn_egg Expected: 1536 Got: 1556
+[04Jul2025 21:15:24.020] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: friendsandfoes:illusioner_spawn_egg Expected: 1537 Got: 1557
+[04Jul2025 21:15:24.020] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: friendsandfoes:mauler_spawn_egg Expected: 1538 Got: 1558
+[04Jul2025 21:15:24.020] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: friendsandfoes:moobloom_spawn_egg Expected: 1539 Got: 1559
+[04Jul2025 21:15:24.020] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: friendsandfoes:rascal_spawn_egg Expected: 1540 Got: 1560
+[04Jul2025 21:15:24.020] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: friendsandfoes:tuff_golem_spawn_egg Expected: 1541 Got: 1561
+[04Jul2025 21:15:24.022] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: friendsandfoes:wildfire_spawn_egg Expected: 1542 Got: 1562
+[04Jul2025 21:15:24.022] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: friendsandfoes:buttercup Expected: 1543 Got: 1563
+[04Jul2025 21:15:24.025] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: friendsandfoes:crab_claw Expected: 1544 Got: 1564
+[04Jul2025 21:15:24.025] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: friendsandfoes:crab_egg Expected: 1545 Got: 1565
+[04Jul2025 21:15:24.025] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: friendsandfoes:acacia_beehive Expected: 1546 Got: 1566
+[04Jul2025 21:15:24.026] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: friendsandfoes:bamboo_beehive Expected: 1547 Got: 1567
+[04Jul2025 21:15:24.026] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: friendsandfoes:birch_beehive Expected: 1548 Got: 1568
+[04Jul2025 21:15:24.026] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: friendsandfoes:cherry_beehive Expected: 1549 Got: 1569
+[04Jul2025 21:15:24.026] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: friendsandfoes:crimson_beehive Expected: 1550 Got: 1570
+[04Jul2025 21:15:24.026] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: friendsandfoes:dark_oak_beehive Expected: 1551 Got: 1571
+[04Jul2025 21:15:24.026] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: friendsandfoes:jungle_beehive Expected: 1552 Got: 1572
+[04Jul2025 21:15:24.026] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: friendsandfoes:mangrove_beehive Expected: 1553 Got: 1573
+[04Jul2025 21:15:24.027] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: friendsandfoes:spruce_beehive Expected: 1554 Got: 1574
+[04Jul2025 21:15:24.027] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: friendsandfoes:warped_beehive Expected: 1555 Got: 1575
+[04Jul2025 21:15:24.027] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: friendsandfoes:copper_button Expected: 1556 Got: 1576
+[04Jul2025 21:15:24.028] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: friendsandfoes:exposed_copper_button Expected: 1557 Got: 1577
+[04Jul2025 21:15:24.030] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: friendsandfoes:weathered_copper_button Expected: 1558 Got: 1578
+[04Jul2025 21:15:24.030] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: friendsandfoes:oxidized_copper_button Expected: 1559 Got: 1579
+[04Jul2025 21:15:24.030] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: friendsandfoes:waxed_copper_button Expected: 1560 Got: 1580
+[04Jul2025 21:15:24.030] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: friendsandfoes:waxed_exposed_copper_button Expected: 1561 Got: 1581
+[04Jul2025 21:15:24.030] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: friendsandfoes:waxed_weathered_copper_button Expected: 1562 Got: 1582
+[04Jul2025 21:15:24.030] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: friendsandfoes:waxed_oxidized_copper_button Expected: 1563 Got: 1583
+[04Jul2025 21:15:24.031] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: friendsandfoes:exposed_lightning_rod Expected: 1564 Got: 1584
+[04Jul2025 21:15:24.031] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: friendsandfoes:weathered_lightning_rod Expected: 1565 Got: 1585
+[04Jul2025 21:15:24.031] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: friendsandfoes:oxidized_lightning_rod Expected: 1566 Got: 1586
+[04Jul2025 21:15:24.031] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: friendsandfoes:waxed_lightning_rod Expected: 1567 Got: 1587
+[04Jul2025 21:15:24.031] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: friendsandfoes:waxed_exposed_lightning_rod Expected: 1568 Got: 1588
+[04Jul2025 21:15:24.031] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: friendsandfoes:waxed_weathered_lightning_rod Expected: 1569 Got: 1589
+[04Jul2025 21:15:24.031] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: friendsandfoes:waxed_oxidized_lightning_rod Expected: 1570 Got: 1590
+[04Jul2025 21:15:24.035] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: friendsandfoes:wildfire_crown Expected: 1571 Got: 1591
+[04Jul2025 21:15:24.035] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: friendsandfoes:wildfire_crown_fragment Expected: 1572 Got: 1592
+[04Jul2025 21:15:24.035] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: friendsandfoes:totem_of_freezing Expected: 1573 Got: 1593
+[04Jul2025 21:15:24.035] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: friendsandfoes:totem_of_illusion Expected: 1574 Got: 1594
+[04Jul2025 21:15:24.036] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: tetra:scan_hit Expected: 1474 Got: 1477
+[04Jul2025 21:15:24.038] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: tetra:scan_miss Expected: 1475 Got: 1478
+[04Jul2025 21:15:24.038] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: tetra:thrown_modular_item Expected: 124 Got: 127
+[04Jul2025 21:15:24.040] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: tetra:extractor_projectile Expected: 125 Got: 128
+[04Jul2025 21:15:24.212] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Test-/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23139!/assets/.mcassetsroot' uses unexpected schema
+[04Jul2025 21:15:24.213] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Test-/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23139!/data/.mcassetsroot' uses unexpected schema
+[04Jul2025 21:15:24.374] [main/INFO] [Moonlight/]: Generated runtime resources for 1 packs in a total of: 54 ms
+[04Jul2025 21:15:27.593] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[04Jul2025 21:15:27.793] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1444 advancements
+[04Jul2025 21:15:27.803] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded   1 tiers
+[04Jul2025 21:15:27.805] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded   8 tweaks
+[04Jul2025 21:15:27.817] [main/INFO] [se.mickelus.mutil.data.MergingDataStore/]: Loaded  66 materials
+[04Jul2025 21:15:27.826] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded 129 improvements
+[04Jul2025 21:15:27.917] [main/INFO] [se.mickelus.mutil.data.MergingDataStore/]: Loaded  78 modules
+[04Jul2025 21:15:28.212] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded   0 enchantments
+[04Jul2025 21:15:28.215] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded  22 synergies
+[04Jul2025 21:15:28.229] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded  10 replacements
+[04Jul2025 21:15:28.261] [main/INFO] [se.mickelus.mutil.data.MergingDataStore/]: Loaded 342 schematics
+[04Jul2025 21:15:28.414] [main/INFO] [se.mickelus.mutil.data.MergingDataStore/]: Loaded  18 crafting_effects
+[04Jul2025 21:15:28.429] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded  35 repairs
+[04Jul2025 21:15:28.434] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded   2 actions
+[04Jul2025 21:15:28.439] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded   0 destabilization
+[04Jul2025 21:15:28.440] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded   0 unlocks
+[04Jul2025 21:15:28.440] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded   0 archetypes
+[04Jul2025 21:15:28.441] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded   0 item_effects
+[04Jul2025 21:15:28.599] [main/INFO] [com.ordana.immersive_weathering.ImmersiveWeathering/]: Loaded 78 block growths configurations
+[04Jul2025 21:15:28.606] [main/INFO] [com.ordana.immersive_weathering.ImmersiveWeathering/]: Loaded 14 liquid generators configurations
+[04Jul2025 21:15:28.614] [main/WARN] [ModernFix/]: Initial datapack load took 4.369 s
+[04Jul2025 21:15:28.722] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[04Jul2025 21:15:28.724] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[04Jul2025 21:15:28.724] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[04Jul2025 21:15:28.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[04Jul2025 21:15:28.918] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[04Jul2025 21:15:28.960] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[04Jul2025 21:15:29.052] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04Jul2025 21:15:29.054] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[04Jul2025 21:15:29.054] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[04Jul2025 21:15:29.055] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[04Jul2025 21:15:29.143] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[04Jul2025 21:15:29.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[04Jul2025 21:15:32.970] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Jul2025 21:15:32.970] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Jul2025 21:15:32.971] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Jul2025 21:15:32.971] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Jul2025 21:15:32.972] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Jul2025 21:15:32.972] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Jul2025 21:15:32.972] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Jul2025 21:15:33.273] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Jul2025 21:15:33.999] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4227 ms
+[04Jul2025 21:15:34.000] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (4.905s)! For help, type "help"
+[04Jul2025 21:15:34.044] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[04Jul2025 21:15:34.077] [Server thread/WARN] [ModernFix/]: Dedicated server took 36.046 seconds to load
+[04Jul2025 21:16:22.514] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MrIMirror[/127.140.165.134:50991] logged in with entity id 141 at (-2029.3148229557125, 64.0, 1803.8868860583339)
+[04Jul2025 21:16:22.592] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player MrIMirror
+[04Jul2025 21:16:22.654] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror joined the game
+[04Jul2025 21:16:22.665] [Server thread/INFO] [se.mickelus.tetra.data.DataManager/]: Sending data to client: MrIMirror
+[04Jul2025 21:19:09.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror has made the advancement [Drop it like it's hot]
+[04Jul2025 21:21:34.299] [Worker-Main-10/INFO] [ModernFix/]: Instantiating Mojang DFU
+[04Jul2025 21:30:24.034] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MrIMirror lost connection: Disconnected
+[04Jul2025 21:30:24.036] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror left the game
+[04Jul2025 21:30:34.884] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[04Jul2025 21:30:34.943] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[04Jul2025 21:30:34.947] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[04Jul2025 21:30:34.947] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[04Jul2025 21:30:35.240] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[04Jul2025 21:30:35.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[04Jul2025 21:30:35.567] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[04Jul2025 21:30:35.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[04Jul2025 21:30:35.594] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04Jul2025 21:30:35.594] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04Jul2025 21:30:35.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
