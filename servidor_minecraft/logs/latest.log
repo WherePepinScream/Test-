@@ -102,3 +102,5 @@
 [06Jul2025 22:34:32.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror left the game
 [06Jul2025 22:44:54.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Koko_de_Nos has made the advancement [Hollow Solids]
 [06Jul2025 23:16:34.802] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Koko_de_Nos has made the advancement [Not Today, Thank You]
+[06Jul2025 23:37:58.149] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Koko_de_Nos lost connection: Disconnected
+[06Jul2025 23:37:58.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Koko_de_Nos left the game
