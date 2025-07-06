@@ -1984,3 +1984,17 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [06Jul2025 22:33:13.706] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (44f8c735-3ac8-4733-bec9-3da297d6bba9)
 [06Jul2025 22:34:32.656] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MrIMirror lost connection: Disconnected
 [06Jul2025 22:34:32.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror left the game
+[06Jul2025 22:36:44.068] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[06Jul2025 22:36:44.094] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[06Jul2025 22:41:44.082] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[06Jul2025 22:41:44.095] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[06Jul2025 22:44:54.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Koko_de_Nos has made the advancement [Hollow Solids]
+[06Jul2025 22:46:05.660] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (76fb85b8-69bf-46dc-b461-ee18f889f82b)
+[06Jul2025 22:46:05.663] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (INVALID-modular_double)
+[06Jul2025 22:46:44.073] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[06Jul2025 22:46:44.093] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[06Jul2025 22:48:00.424] [Worker-Main-9/DEBUG] [ModernFix/]: Using cached upgraded version of tetra:forged_ruins/extractor_platform_large
+[06Jul2025 22:51:44.068] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[06Jul2025 22:51:44.076] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[06Jul2025 22:55:15.906] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (76fb85b8-69bf-46dc-b461-ee18f889f82b)
+[06Jul2025 22:55:15.907] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (INVALID-modular_double)
