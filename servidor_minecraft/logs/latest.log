@@ -1,219 +1,102 @@
-[04Jul2025 22:56:23.383] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[04Jul2025 22:56:23.389] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
-[04Jul2025 22:56:24.020] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[04Jul2025 22:56:24.087] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Test-/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[04Jul2025 22:56:24.517] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Test-/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[04Jul2025 22:56:24.522] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Test-/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[04Jul2025 22:56:24.524] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Test-/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[04Jul2025 22:56:24.527] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Test-/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[04Jul2025 22:56:24.827] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 4 dependencies adding them to mods collection
-[04Jul2025 22:56:28.256] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[04Jul2025 22:56:28.448] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[04Jul2025 22:56:28.756] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.23.1+mc1.20.1: 95 options available, 0 override(s) found
-[04Jul2025 22:56:28.759] [main/INFO] [ModernFix/]: Applying Nashorn fix
-[04Jul2025 22:56:28.794] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
-[04Jul2025 22:56:29.012] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 71 options available, 0 override(s) found
-[04Jul2025 22:56:30.794] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/layers/CapeLayer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.layers.CapeLayer)
-[04Jul2025 22:56:30.795] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.layers.CapeLayer was not found seriousplayeranimations.mixins.json:CapeRenderMixin
-[04Jul2025 22:56:31.595] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[04Jul2025 22:56:32.556] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (12.81 s after launch)
-[04Jul2025 22:56:32.905] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
-[04Jul2025 22:56:32.907] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
-[04Jul2025 22:56:35.949] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 3385 milliseconds
-[04Jul2025 22:56:39.769] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_47505_ in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
-[04Jul2025 22:56:41.374] [modloading-worker-0/INFO] [seriousplayeranimations/]: Loading up some Serious Animations.
-[04Jul2025 22:56:41.412] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[04Jul2025 22:56:41.413] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[04Jul2025 22:56:41.427] [modloading-worker-0/INFO] [chloride/Main]: Chloride is not intended to be on servers, loaded in inner mode
-[04Jul2025 22:56:43.538] [main/INFO] [Moonlight/]: Initialized block sets in 16ms
-[04Jul2025 22:56:44.239] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
-[04Jul2025 22:56:44.307] [main/INFO] [Moonlight/]: Initialized color sets in 33ms
-[04Jul2025 22:56:44.568] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
-[04Jul2025 22:56:44.622] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.14.11 Target: null
-[04Jul2025 22:56:44.622] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[04Jul2025 22:56:44.823] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[04Jul2025 22:56:45.425] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[04Jul2025 22:56:45.595] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
-[04Jul2025 22:56:45.893] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Test-/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23145!/assets/.mcassetsroot' uses unexpected schema
-[04Jul2025 22:56:45.894] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Test-/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23145!/data/.mcassetsroot' uses unexpected schema
-[04Jul2025 22:56:46.060] [main/INFO] [Moonlight/]: Generated runtime resources for 1 packs in a total of: 51 ms
-[04Jul2025 22:56:49.442] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[04Jul2025 22:56:49.640] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1515 advancements
-[04Jul2025 22:56:49.657] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded   1 tiers
-[04Jul2025 22:56:49.658] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded   8 tweaks
-[04Jul2025 22:56:49.666] [main/INFO] [se.mickelus.mutil.data.MergingDataStore/]: Loaded  66 materials
-[04Jul2025 22:56:49.675] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded 129 improvements
-[04Jul2025 22:56:49.761] [main/INFO] [se.mickelus.mutil.data.MergingDataStore/]: Loaded  78 modules
-[04Jul2025 22:56:49.963] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded   0 enchantments
-[04Jul2025 22:56:49.963] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded  22 synergies
-[04Jul2025 22:56:49.967] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded  10 replacements
-[04Jul2025 22:56:49.985] [main/INFO] [se.mickelus.mutil.data.MergingDataStore/]: Loaded 342 schematics
-[04Jul2025 22:56:50.087] [main/INFO] [se.mickelus.mutil.data.MergingDataStore/]: Loaded  18 crafting_effects
-[04Jul2025 22:56:50.093] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded  35 repairs
-[04Jul2025 22:56:50.096] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded   2 actions
-[04Jul2025 22:56:50.097] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded   0 destabilization
-[04Jul2025 22:56:50.098] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded   0 unlocks
-[04Jul2025 22:56:50.099] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded   0 archetypes
-[04Jul2025 22:56:50.099] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded   0 item_effects
-[04Jul2025 22:56:50.204] [main/INFO] [com.ordana.immersive_weathering.ImmersiveWeathering/]: Loaded 78 block growths configurations
-[04Jul2025 22:56:50.213] [main/INFO] [com.ordana.immersive_weathering.ImmersiveWeathering/]: Loaded 14 liquid generators configurations
-[04Jul2025 22:56:50.223] [main/WARN] [ModernFix/]: Initial datapack load took 4.294 s
-[04Jul2025 22:56:50.349] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[04Jul2025 22:56:50.350] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[04Jul2025 22:56:50.350] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[04Jul2025 22:56:50.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[04Jul2025 22:56:50.663] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[04Jul2025 22:56:50.693] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[04Jul2025 22:56:50.791] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[04Jul2025 22:56:50.792] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[04Jul2025 22:56:50.792] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[04Jul2025 22:56:50.792] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[04Jul2025 22:56:50.910] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[04Jul2025 22:56:51.329] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[04Jul2025 22:56:51.333] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[04Jul2025 22:56:51.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[04Jul2025 22:56:54.606] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Jul2025 22:56:54.607] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Jul2025 22:56:54.608] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Jul2025 22:56:54.608] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Jul2025 22:56:54.609] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Jul2025 22:56:54.609] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Jul2025 22:56:54.742] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Jul2025 22:56:55.238] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Jul2025 22:56:55.921] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4184 ms
-[04Jul2025 22:56:55.926] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (5.096s)! For help, type "help"
-[04Jul2025 22:56:55.963] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[04Jul2025 22:56:55.995] [Server thread/WARN] [ModernFix/]: Dedicated server took 36.25 seconds to load
-[04Jul2025 22:57:04.678] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MrIMirror[/127.140.165.134:51289] logged in with entity id 175 at (-2983.1492568332883, 47.0, 955.9536553330179)
-[04Jul2025 22:57:04.774] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player MrIMirror
-[04Jul2025 22:57:04.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror joined the game
-[04Jul2025 22:57:04.929] [Server thread/INFO] [se.mickelus.tetra.data.DataManager/]: Sending data to client: MrIMirror
-[04Jul2025 22:57:33.373] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Koko_de_Nos[/127.184.211.87:40829] logged in with entity id 405 at (539.5361443066048, 104.0, 2705.117411776725)
-[04Jul2025 22:57:33.387] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Koko_de_Nos
-[04Jul2025 22:57:33.430] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Koko_de_Nos joined the game
-[04Jul2025 22:57:33.442] [Server thread/INFO] [se.mickelus.tetra.data.DataManager/]: Sending data to client: Koko_de_Nos
-[04Jul2025 22:57:52.229] [Thread-25/WARN] [SkinRestorer/]: Failed to fetch skin: not found
-[04Jul2025 22:57:52.301] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: sexo_tilin69[/127.75.17.29:53195] logged in with entity id 533 at (210.32365030391458, 36.0, 76.19048451037905)
-[04Jul2025 22:57:52.309] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player sexo_tilin69
-[04Jul2025 22:57:52.313] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sexo_tilin69 joined the game
-[04Jul2025 22:57:52.345] [Server thread/INFO] [se.mickelus.tetra.data.DataManager/]: Sending data to client: sexo_tilin69
-[04Jul2025 22:57:58.901] [Thread-26/WARN] [SkinRestorer/]: Failed to fetch skin: not found
-[04Jul2025 22:57:58.931] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: suranium[/127.77.119.93:44109] logged in with entity id 754 at (204.69999998807907, 34.0, 73.34064652364964)
-[04Jul2025 22:57:58.940] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player suranium
-[04Jul2025 22:57:58.945] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: suranium joined the game
-[04Jul2025 22:57:59.039] [Server thread/INFO] [se.mickelus.tetra.data.DataManager/]: Sending data to client: suranium
-[04Jul2025 22:58:03.989] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <suranium> Que paso
-[04Jul2025 22:58:16.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Koko_de_Nos> tu tia we
-[04Jul2025 22:58:23.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <suranium> donde pa matarla
-[04Jul2025 22:58:26.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <suranium> digo
-[04Jul2025 22:58:35.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <suranium> xd
-[04Jul2025 22:58:43.944] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Koko_de_Nos> en gamarra ta que se regala
-[04Jul2025 22:58:44.088] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrIMirror> c Jordan piensa que detonada es mismo que matada
-[04Jul2025 22:58:47.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <sexo_tilin69> castigenlo son porno femboy por una semana
-[04Jul2025 22:59:02.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <suranium> XD
-[04Jul2025 22:59:11.615] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Koko_de_Nos has made the advancement [Hot Stuff]
-[04Jul2025 22:59:14.406] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: sexo_tilin69 lost connection: Disconnected
-[04Jul2025 22:59:14.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sexo_tilin69 left the game
-[04Jul2025 23:01:27.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror has made the advancement [Not Today, Thank You]
-[04Jul2025 23:05:41.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Koko_de_Nos has made the advancement [Diamonds!]
-[04Jul2025 23:06:40.568] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Koko_de_Nos> wzzzzzzz
-[04Jul2025 23:06:54.254] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <suranium> zzzzzzzzzzz
-[04Jul2025 23:07:33.904] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MrIMirror lost connection: Disconnected
-[04Jul2025 23:07:33.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror left the game
-[04Jul2025 23:07:51.880] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MrIMirror[/127.140.165.134:48623] logged in with entity id 4845 at (-2988.2717699570962, 51.0, 958.3777840482013)
-[04Jul2025 23:07:51.887] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player MrIMirror
-[04Jul2025 23:07:51.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror joined the game
-[04Jul2025 23:07:51.916] [Server thread/INFO] [se.mickelus.tetra.data.DataManager/]: Sending data to client: MrIMirror
-[04Jul2025 23:09:22.204] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MrIMirror lost connection: Disconnected
-[04Jul2025 23:09:22.205] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror left the game
-[04Jul2025 23:10:49.471] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MrIMirror[/127.140.165.134:45723] logged in with entity id 5886 at (-2943.300000011921, -5.0, 908.1222216781517)
-[04Jul2025 23:10:49.480] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player MrIMirror
-[04Jul2025 23:10:49.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror joined the game
-[04Jul2025 23:10:49.514] [Server thread/INFO] [se.mickelus.tetra.data.DataManager/]: Sending data to client: MrIMirror
-[04Jul2025 23:15:18.678] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: suranium has made the advancement [Acquire Hardware]
-[04Jul2025 23:15:28.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: suranium has made the advancement [Isn't It Iron Pick]
-[04Jul2025 23:15:31.361] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MrIMirror: Teleported MrIMirror to Koko_de_Nos]
-[04Jul2025 23:16:31.087] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MrIMirror: Teleported MrIMirror to -3004.500000, 64.000000, 969.500000]
-[04Jul2025 23:18:52.765] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrIMirror> zzzzzzzz
-[04Jul2025 23:18:55.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Koko_de_Nos> zzzz
-[04Jul2025 23:18:57.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <suranium> zzz
-[04Jul2025 23:19:07.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MrIMirror: Kicked suranium: Kicked by an operator]
-[04Jul2025 23:19:07.553] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: suranium lost connection: Kicked by an operator
-[04Jul2025 23:19:07.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: suranium left the game
-[04Jul2025 23:19:11.889] [Thread-59/WARN] [SkinRestorer/]: Failed to fetch skin: not found
-[04Jul2025 23:19:11.914] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: suranium[/127.77.119.93:39779] logged in with entity id 7883 at (480.5, 63.0, 467.5)
-[04Jul2025 23:19:11.917] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player suranium
-[04Jul2025 23:19:11.919] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: suranium joined the game
-[04Jul2025 23:19:11.926] [Server thread/INFO] [se.mickelus.tetra.data.DataManager/]: Sending data to client: suranium
-[04Jul2025 23:19:15.577] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <suranium> zzzzzz
-[04Jul2025 23:19:18.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <suranium> ):v
-[04Jul2025 23:19:54.763] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror has made the advancement [Long Gone]
-[04Jul2025 23:22:08.269] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MrIMirror lost connection: Disconnected
-[04Jul2025 23:22:08.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror left the game
-[04Jul2025 23:23:19.020] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MrIMirror[/127.140.165.134:48255] logged in with entity id 11450 at (-2792.347790552363, 63.085764312744146, 1020.5607351733693)
-[04Jul2025 23:23:19.027] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player MrIMirror
-[04Jul2025 23:23:19.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror joined the game
-[04Jul2025 23:23:19.064] [Server thread/INFO] [se.mickelus.tetra.data.DataManager/]: Sending data to client: MrIMirror
-[04Jul2025 23:25:46.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror drowned
-[04Jul2025 23:27:38.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <suranium> aaaaaaaaaaaaaaa
-[04Jul2025 23:27:44.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <suranium> caos
-[04Jul2025 23:27:46.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <suranium> en mi casa
-[04Jul2025 23:27:48.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <suranium> chol
-[04Jul2025 23:27:52.109] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <suranium> xd
-[04Jul2025 23:27:58.287] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <suranium> es que no puedo usar el micro ahora
-[04Jul2025 23:28:04.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <suranium> andan gritando
-[04Jul2025 23:28:16.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <suranium> todos
-[04Jul2025 23:28:27.713] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror has completed the challenge [Perpetuate the Cycle?]
-[04Jul2025 23:28:34.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <suranium> como en deltarune
-[04Jul2025 23:29:23.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: suranium has made the advancement [Suit Up]
-[04Jul2025 23:30:14.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrIMirror> zzzzzzzz
-[04Jul2025 23:30:28.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <suranium> zzzzzzzzzz
-[04Jul2025 23:30:35.654] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <suranium> no duerme o
-[04Jul2025 23:30:55.859] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <suranium> ya saben
-[04Jul2025 23:31:22.344] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <suranium> lasy es
-[04Jul2025 23:31:25.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <suranium> asiatica?
-[04Jul2025 23:31:32.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <suranium> lady^+
-[04Jul2025 23:31:44.894] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <suranium> :eyes:
-[04Jul2025 23:31:46.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <suranium> ii
-[04Jul2025 23:33:45.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MrIMirror: Teleported MrIMirror to Koko_de_Nos]
-[04Jul2025 23:34:17.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror has made the advancement [Suit Up]
-[04Jul2025 23:34:35.018] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MrIMirror: Teleported MrIMirror to -3007.500000, 65.000000, 971.500000]
-[04Jul2025 23:34:44.989] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <suranium> XDD
-[04Jul2025 23:34:52.331] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <suranium> felicidades
-[04Jul2025 23:35:05.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <suranium> xdd
-[04Jul2025 23:35:11.392] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <suranium> tu dijiste primero
-[04Jul2025 23:35:12.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <suranium> :v
-[04Jul2025 23:35:15.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <suranium> tu no
-[04Jul2025 23:35:17.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <suranium> jorge
-[04Jul2025 23:35:19.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <suranium> XD
-[04Jul2025 23:36:54.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: suranium has made the advancement [Hot Stuff]
-[04Jul2025 23:39:35.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror has made the advancement [Diamonds!]
-[04Jul2025 23:41:23.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Koko_de_Nos> ZZZZZZ
-[04Jul2025 23:41:34.485] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <suranium> ZZZZZZZZ
-[04Jul2025 23:41:34.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror has made the advancement [Hollow Solids]
-[04Jul2025 23:41:53.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Koko_de_Nos> ZZZZZ
-[04Jul2025 23:42:00.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrIMirror> la lady
-[04Jul2025 23:42:13.154] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror has made the advancement [Hot Stuff]
-[04Jul2025 23:42:48.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <suranium> ZZZZZZZZZZ
-[04Jul2025 23:43:00.109] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MrIMirror: Teleported MrIMirror to -3007.500000, 65.000000, 971.500000]
-[04Jul2025 23:43:12.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <suranium> zzzz
-[04Jul2025 23:43:46.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: suranium has made the advancement [Voluntary Exile]
-[04Jul2025 23:44:32.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror has made the advancement [Basic Tinkering (Tetra)]
-[04Jul2025 23:44:33.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror has made the advancement [Bench mk II]
-[04Jul2025 23:45:11.399] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MrIMirror lost connection: Disconnected
-[04Jul2025 23:45:11.399] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror left the game
-[04Jul2025 23:49:26.602] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Koko_de_Nos lost connection: Disconnected
-[04Jul2025 23:49:26.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Koko_de_Nos left the game
-[04Jul2025 23:49:29.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[04Jul2025 23:49:29.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[04Jul2025 23:49:29.182] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[04Jul2025 23:49:29.196] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: suranium lost connection: Server closed
-[04Jul2025 23:49:29.197] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: suranium left the game
-[04Jul2025 23:49:29.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[04Jul2025 23:49:29.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[04Jul2025 23:49:30.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[04Jul2025 23:49:30.535] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[04Jul2025 23:49:30.556] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[04Jul2025 23:49:30.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[04Jul2025 23:49:30.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[04Jul2025 23:49:30.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[06Jul2025 22:25:41.767] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[06Jul2025 22:25:41.786] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
+[06Jul2025 22:25:45.790] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[06Jul2025 22:25:45.967] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Test-/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[06Jul2025 22:25:46.813] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Test-/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[06Jul2025 22:25:46.827] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Test-/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[06Jul2025 22:25:46.833] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Test-/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[06Jul2025 22:25:46.840] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Test-/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[06Jul2025 22:25:47.396] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 4 dependencies adding them to mods collection
+[06Jul2025 22:25:53.365] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[06Jul2025 22:25:53.748] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[06Jul2025 22:25:54.523] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.23.1+mc1.20.1: 95 options available, 0 override(s) found
+[06Jul2025 22:25:54.524] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[06Jul2025 22:25:54.574] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[06Jul2025 22:25:55.130] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 72 options available, 0 override(s) found
+[06Jul2025 22:25:58.310] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/layers/CapeLayer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.layers.CapeLayer)
+[06Jul2025 22:25:58.311] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.layers.CapeLayer was not found seriousplayeranimations.mixins.json:CapeRenderMixin
+[06Jul2025 22:25:59.530] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[06Jul2025 22:26:01.823] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (31.00 s after launch)
+[06Jul2025 22:26:02.378] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[06Jul2025 22:26:02.379] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[06Jul2025 22:26:09.356] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 7515 milliseconds
+[06Jul2025 22:26:15.881] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_47505_ in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[06Jul2025 22:26:18.485] [modloading-worker-0/INFO] [seriousplayeranimations/]: Loading up some Serious Animations.
+[06Jul2025 22:26:18.565] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[06Jul2025 22:26:18.567] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[06Jul2025 22:26:18.654] [modloading-worker-0/INFO] [chloride/Main]: Chloride is not intended to be on servers, loaded in inner mode
+[06Jul2025 22:26:22.675] [main/INFO] [Moonlight/]: Initialized block sets in 16ms
+[06Jul2025 22:26:23.511] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[06Jul2025 22:26:23.828] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
+[06Jul2025 22:26:23.998] [main/INFO] [Moonlight/]: Initialized color sets in 83ms
+[06Jul2025 22:26:24.535] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.14.11 Target: null
+[06Jul2025 22:26:24.537] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[06Jul2025 22:26:24.813] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[06Jul2025 22:26:25.363] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[06Jul2025 22:26:25.668] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[06Jul2025 22:26:26.722] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Test-/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23147!/assets/.mcassetsroot' uses unexpected schema
+[06Jul2025 22:26:26.725] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Test-/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23147!/data/.mcassetsroot' uses unexpected schema
+[06Jul2025 22:26:27.175] [main/INFO] [Moonlight/]: Generated runtime resources for 1 packs in a total of: 98 ms
+[06Jul2025 22:26:33.295] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[06Jul2025 22:26:33.745] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1515 advancements
+[06Jul2025 22:26:33.793] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded   1 tiers
+[06Jul2025 22:26:33.796] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded   8 tweaks
+[06Jul2025 22:26:33.808] [main/INFO] [se.mickelus.mutil.data.MergingDataStore/]: Loaded  66 materials
+[06Jul2025 22:26:33.819] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded 129 improvements
+[06Jul2025 22:26:34.012] [main/INFO] [se.mickelus.mutil.data.MergingDataStore/]: Loaded  78 modules
+[06Jul2025 22:26:34.359] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded   0 enchantments
+[06Jul2025 22:26:34.359] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded  22 synergies
+[06Jul2025 22:26:34.372] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded  10 replacements
+[06Jul2025 22:26:34.403] [main/INFO] [se.mickelus.mutil.data.MergingDataStore/]: Loaded 342 schematics
+[06Jul2025 22:26:34.596] [main/INFO] [se.mickelus.mutil.data.MergingDataStore/]: Loaded  18 crafting_effects
+[06Jul2025 22:26:34.622] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded  35 repairs
+[06Jul2025 22:26:34.638] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded   2 actions
+[06Jul2025 22:26:34.642] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded   0 destabilization
+[06Jul2025 22:26:34.643] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded   0 unlocks
+[06Jul2025 22:26:34.644] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded   0 archetypes
+[06Jul2025 22:26:34.645] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded   0 item_effects
+[06Jul2025 22:26:34.855] [main/INFO] [com.ordana.immersive_weathering.ImmersiveWeathering/]: Loaded 78 block growths configurations
+[06Jul2025 22:26:34.882] [main/INFO] [com.ordana.immersive_weathering.ImmersiveWeathering/]: Loaded 14 liquid generators configurations
+[06Jul2025 22:26:34.902] [main/WARN] [ModernFix/]: Initial datapack load took 8.016 s
+[06Jul2025 22:26:35.116] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[06Jul2025 22:26:35.117] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[06Jul2025 22:26:35.121] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[06Jul2025 22:26:35.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[06Jul2025 22:26:35.530] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[06Jul2025 22:26:35.590] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[06Jul2025 22:26:35.754] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[06Jul2025 22:26:35.756] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[06Jul2025 22:26:35.758] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[06Jul2025 22:26:35.759] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[06Jul2025 22:26:35.929] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[06Jul2025 22:26:36.977] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[06Jul2025 22:26:38.987] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2025 22:26:38.996] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2025 22:26:38.997] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2025 22:26:39.005] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2025 22:26:39.006] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2025 22:26:39.609] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2025 22:26:40.003] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2025 22:26:40.591] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2025 22:26:41.017] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2025 22:26:41.481] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[06Jul2025 22:26:42.007] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 27%
+[06Jul2025 22:26:42.551] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 28%
+[06Jul2025 22:26:42.992] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 28%
+[06Jul2025 22:26:43.517] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 44%
+[06Jul2025 22:26:43.860] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6881 ms
+[06Jul2025 22:26:43.861] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (8.073s)! For help, type "help"
+[06Jul2025 22:26:44.022] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[06Jul2025 22:26:44.093] [Server thread/WARN] [ModernFix/]: Dedicated server took 73.274 seconds to load
+[06Jul2025 22:28:05.562] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MrIMirror[/127.140.165.134:34493] logged in with entity id 165 at (-3007.4063389772064, 65.0, 971.7478236047154)
+[06Jul2025 22:28:05.663] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player MrIMirror
+[06Jul2025 22:28:05.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror joined the game
+[06Jul2025 22:28:05.820] [Server thread/INFO] [se.mickelus.tetra.data.DataManager/]: Sending data to client: MrIMirror
+[06Jul2025 22:30:01.080] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Koko_de_Nos[/127.184.211.87:43915] logged in with entity id 450 at (2150.020493461989, 68.0, 5241.761278670994)
+[06Jul2025 22:30:01.102] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Koko_de_Nos
+[06Jul2025 22:30:01.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Koko_de_Nos joined the game
+[06Jul2025 22:30:01.153] [Server thread/INFO] [se.mickelus.tetra.data.DataManager/]: Sending data to client: Koko_de_Nos
+[06Jul2025 22:31:33.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Koko_de_Nos has made the advancement [Basic Tinkering (Tetra)]
+[06Jul2025 22:31:35.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Koko_de_Nos has made the advancement [Bench mk II]
+[06Jul2025 22:34:32.656] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MrIMirror lost connection: Disconnected
+[06Jul2025 22:34:32.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror left the game
