@@ -1,1 +1,11 @@
 [07Jul2025 00:24:51.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] Jorge estas?
+[07Jul2025 00:39:46.578] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MrIMirror[/127.140.165.134:40247] logged in with entity id 5228 at (-3016.32813762187, 64.0, 932.6929535691785)
+[07Jul2025 00:39:46.586] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player MrIMirror
+[07Jul2025 00:39:46.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror joined the game
+[07Jul2025 00:39:46.619] [Server thread/INFO] [se.mickelus.tetra.data.DataManager/]: Sending data to client: MrIMirror
+[07Jul2025 00:53:22.769] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-2995, y=65, z=970} BlockPos{x=-2996, y=63, z=972}
+[07Jul2025 01:01:32.816] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Koko_de_Nos[/127.184.211.87:33353] logged in with entity id 8070 at (2153.5, 64.0, 5219.5)
+[07Jul2025 01:01:32.823] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Koko_de_Nos
+[07Jul2025 01:01:32.852] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Koko_de_Nos joined the game
+[07Jul2025 01:01:32.864] [Server thread/INFO] [se.mickelus.tetra.data.DataManager/]: Sending data to client: Koko_de_Nos
+[07Jul2025 01:01:59.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Koko_de_Nos> hay una rana wey
