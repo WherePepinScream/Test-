@@ -9,3 +9,21 @@
 [07Jul2025 01:01:32.852] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Koko_de_Nos joined the game
 [07Jul2025 01:01:32.864] [Server thread/INFO] [se.mickelus.tetra.data.DataManager/]: Sending data to client: Koko_de_Nos
 [07Jul2025 01:01:59.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Koko_de_Nos> hay una rana wey
+[07Jul2025 01:07:37.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Koko_de_Nos> hola
+[07Jul2025 01:07:46.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrIMirror> entra a vc fracasado
+[07Jul2025 01:08:47.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrIMirror> zzzzzzz
+[07Jul2025 01:10:08.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrIMirror> zzzzzzz
+[07Jul2025 01:11:46.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Koko_de_Nos> tpy con ewlla en llamada
+[07Jul2025 01:11:48.867] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Koko_de_Nos> pera
+[07Jul2025 01:11:56.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrIMirror> ya
+[07Jul2025 01:11:58.901] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Koko_de_Nos lost connection: Disconnected
+[07Jul2025 01:11:58.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Koko_de_Nos left the game
+[07Jul2025 01:16:18.200] [Thread-162/WARN] [SkinRestorer/]: Failed to fetch skin: not found
+[07Jul2025 01:16:18.228] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: suranium[/127.77.119.93:37371] logged in with entity id 9931 at (720.3000000119209, 41.0, 1024.3099239212372)
+[07Jul2025 01:16:18.242] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player suranium
+[07Jul2025 01:16:18.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: suranium joined the game
+[07Jul2025 01:16:18.250] [Server thread/INFO] [se.mickelus.tetra.data.DataManager/]: Sending data to client: suranium
+[07Jul2025 01:17:03.054] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MrIMirror lost connection: Disconnected
+[07Jul2025 01:17:03.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror left the game
+[07Jul2025 01:17:55.399] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: suranium lost connection: Disconnected
+[07Jul2025 01:17:55.399] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: suranium left the game
