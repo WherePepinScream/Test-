@@ -2210,7 +2210,19 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2025-07-10 02:19:36 +0000"
+    },
+    "done": true
+  },
   "tetra:spelunking/find_scroll_sturdy": {
+    "criteria": {
+      "find": "2025-07-10 02:20:07 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/find_scroll": {
     "criteria": {
       "find": "2025-07-10 02:20:07 +0000"
     },
@@ -2222,15 +2234,9 @@
     },
     "done": true
   },
-  "tetra:spelunking/find_scroll": {
+  "minecraft:recipes/redstone/dispenser": {
     "criteria": {
-      "find": "2025-07-10 02:20:07 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/fermented_spider_eye": {
-    "criteria": {
-      "has_spider_eye": "2025-07-10 02:19:36 +0000"
+      "has_bow": "2025-07-10 02:24:11 +0000"
     },
     "done": true
   },

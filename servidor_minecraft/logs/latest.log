@@ -1138,3 +1138,12 @@
 [10Jul2025 02:20:07.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror has made the advancement [Re-acquired Knowledge]
 [10Jul2025 02:20:53.466] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Koko_de_Nos has made the advancement [Hunt and Gather]
 [10Jul2025 02:21:03.227] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror has made the advancement [Howling Blades]
+[10Jul2025 02:27:16.804] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=2210, y=63, z=5665} BlockPos{x=2210, y=62, z=5665}
+[10Jul2025 02:27:59.670] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Koko_de_Nos> zzzzz
+[10Jul2025 02:28:02.551] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MrIMirror lost connection: Disconnected
+[10Jul2025 02:28:02.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror left the game
+[10Jul2025 02:28:13.564] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MrIMirror[/127.140.165.134:51783] logged in with entity id 10669 at (-3669.699999988079, -16.0, 938.3089043034596)
+[10Jul2025 02:28:13.573] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player MrIMirror
+[10Jul2025 02:28:13.587] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror joined the game
+[10Jul2025 02:28:13.590] [Server thread/INFO] [se.mickelus.tetra.data.DataManager/]: Sending data to client: MrIMirror
+[10Jul2025 02:30:05.302] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror tried to swim in lava
