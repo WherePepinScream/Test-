@@ -1125,3 +1125,16 @@
 [10Jul2025 02:04:41.526] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-3646, y=65, z=952} BlockPos{x=-3646, y=63, z=953}
 [10Jul2025 02:05:17.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrIMirror> zzzzzzzzzzzzzzzzz
 [10Jul2025 02:10:41.672] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror has made the advancement [Crops of the Wild]
+[10Jul2025 02:14:02.252] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Koko_de_Nos has made the advancement [Crops of the Wild]
+[10Jul2025 02:16:32.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Koko_de_Nos> zzz
+[10Jul2025 02:16:34.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror was slain by Zombie
+[10Jul2025 02:16:34.204] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MrIMirror lost connection: Disconnected
+[10Jul2025 02:16:34.204] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror left the game
+[10Jul2025 02:16:41.867] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MrIMirror[/127.140.165.134:42327] logged in with entity id 6066 at (-3659.300000011921, -2.0, 911.0030323482558)
+[10Jul2025 02:16:41.888] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player MrIMirror
+[10Jul2025 02:16:41.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror joined the game
+[10Jul2025 02:16:41.915] [Server thread/INFO] [se.mickelus.tetra.data.DataManager/]: Sending data to client: MrIMirror
+[10Jul2025 02:17:19.879] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror fell from a high place
+[10Jul2025 02:20:07.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror has made the advancement [Re-acquired Knowledge]
+[10Jul2025 02:20:53.466] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Koko_de_Nos has made the advancement [Hunt and Gather]
+[10Jul2025 02:21:03.227] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror has made the advancement [Howling Blades]
