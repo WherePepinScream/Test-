@@ -1939,6 +1939,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/cooking/mushroom_rice": {
+    "criteria": {
+      "has_any_ingredient": "2025-07-10 02:10:41 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/combat/diamond_knife": {
     "criteria": {
       "has_diamond": "2025-07-10 01:50:19 +0000"
@@ -1954,6 +1960,18 @@
   "farmersdelight:recipes/combat/flint_knife": {
     "criteria": {
       "has_stick": "2025-07-10 01:45:49 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/safety_net": {
+    "criteria": {
+      "has_rope": "2025-07-10 02:10:38 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/get_fd_seed": {
+    "criteria": {
+      "rice": "2025-07-10 02:10:41 +0000"
     },
     "done": true
   },
@@ -1975,6 +1993,12 @@
     },
     "done": true
   },
+  "tetra:spelunking/geode_open": {
+    "criteria": {
+      "consume_geode": "2025-07-10 02:04:01 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/cooking/baked_cod_stew": {
     "criteria": {
       "has_any_ingredient": "2025-07-10 01:50:26 +0000"
@@ -1993,6 +2017,24 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2025-07-10 02:10:47 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/cooked_rice": {
+    "criteria": {
+      "has_rice": "2025-07-10 02:10:41 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/glow_berry_custard": {
+    "criteria": {
+      "has_any_ingredient": "2025-07-10 02:11:35 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/cooking/fried_rice": {
     "criteria": {
       "has_any_ingredient": "2025-07-10 01:50:11 +0000"
@@ -2002,6 +2044,12 @@
   "minecraft:recipes/misc/flower_banner_pattern": {
     "criteria": {
       "has_oxeye_daisy": "2025-07-10 01:57:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2025-07-10 02:10:47 +0000"
     },
     "done": true
   },
@@ -2029,6 +2077,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/cooking/pasta_with_meatballs": {
+    "criteria": {
+      "has_any_ingredient": "2025-07-10 02:07:19 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/cooking/bone_broth": {
     "criteria": {
       "has_bone": "2025-07-10 01:50:21 +0000"
@@ -2050,6 +2104,12 @@
   "farmersdelight:recipes/building_blocks/organic_compost_from_rotten_flesh": {
     "criteria": {
       "has_rotten_flesh": "2025-07-10 01:50:11 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/rice_bag": {
+    "criteria": {
+      "has_rice": "2025-07-10 02:10:41 +0000"
     },
     "done": true
   },
@@ -2125,6 +2185,12 @@
       "bumbling_beepartments": "2025-07-10 01:45:50 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/transportation/powered_rail": {
+    "criteria": {
+      "has_rail": "2025-07-10 02:10:47 +0000"
+    },
+    "done": true
   },
   "DataVersion": 3465
 }

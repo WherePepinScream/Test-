@@ -1041,6 +1041,7 @@
     "criteria": {
       "minecraft:skeleton": "2025-07-06 23:16:39 +0000",
       "minecraft:spider": "2025-07-04 22:40:53 +0000",
+      "minecraft:witch": "2025-07-10 02:09:41 +0000",
       "minecraft:zombie": "2025-07-06 23:10:42 +0000"
     },
     "done": false
@@ -2047,15 +2048,63 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/combat/diamond_knife": {
+    "criteria": {
+      "has_diamond": "2025-07-10 02:03:25 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/dye_magenta_carpet": {
     "criteria": {
       "has_needed_dye": "2025-07-10 01:49:37 +0000"
     },
     "done": true
   },
+  "immersive_weathering:recipes/iron_nugget": {
+    "criteria": {
+      "has_copper_block": "2025-07-10 02:12:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-07-10 02:11:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-07-10 02:11:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/spyglass": {
     "criteria": {
       "has_amethyst_shard": "2025-07-10 01:51:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-07-10 02:11:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-07-10 02:11:11 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/cooking_pot": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-10 02:12:06 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/geode_open": {
+    "criteria": {
+      "consume_geode": "2025-07-10 02:03:15 +0000"
     },
     "done": true
   },
@@ -2071,6 +2120,24 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-07-10 02:11:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-07-10 02:11:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-07-10 02:11:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/calibrated_sculk_sensor": {
     "criteria": {
       "has_amethyst_shard": "2025-07-10 01:51:16 +0000"
@@ -2080,6 +2147,18 @@
   "minecraft:recipes/building_blocks/tinted_glass": {
     "criteria": {
       "has_amethyst_shard": "2025-07-10 01:51:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-07-10 02:11:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_chest_raft": {
+    "criteria": {
+      "has_boat": "2025-07-10 02:11:11 +0000"
     },
     "done": true
   },
@@ -2131,6 +2210,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_the_recipe": "2025-07-10 02:04:39 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/building_blocks/organic_compost_from_rotten_flesh": {
     "criteria": {
       "has_rotten_flesh": "2025-07-10 01:43:51 +0000"
@@ -2149,11 +2234,23 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/combat/iron_knife": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-10 02:12:06 +0000"
+    },
+    "done": true
+  },
   "the_bumblezone:biomes/discover_all_biomes": {
     "criteria": {
       "bumbling_beepartments": "2025-07-10 01:43:53 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+    "criteria": {
+      "has_iron_nugget": "2025-07-10 02:12:08 +0000"
+    },
+    "done": true
   },
   "DataVersion": 3465
 }
