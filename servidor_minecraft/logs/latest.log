@@ -1113,3 +1113,9 @@
 [10Jul2025 01:45:49.358] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player MrIMirror
 [10Jul2025 01:45:49.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror joined the game
 [10Jul2025 01:45:49.424] [Server thread/INFO] [se.mickelus.tetra.data.DataManager/]: Sending data to client: MrIMirror
+[10Jul2025 01:56:57.894] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-3633, y=65, z=947} BlockPos{x=-3632, y=63, z=949}
+[10Jul2025 01:57:31.596] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-3642, y=65, z=955} BlockPos{x=-3642, y=63, z=956}
+[10Jul2025 01:58:53.972] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-3604, y=67, z=914} BlockPos{x=-3605, y=65, z=915}
+[10Jul2025 02:00:05.676] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-3639, y=67, z=911} BlockPos{x=-3638, y=65, z=910}
+[10Jul2025 02:00:05.723] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-3639, y=67, z=911} BlockPos{x=-3638, y=65, z=910}
+[10Jul2025 02:02:36.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrIMirror has reached the goal [Hammer II (Stone)]
